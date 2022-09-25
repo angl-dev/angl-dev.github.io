@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Title: Ang Li's Personal Website"
+title                    : "Ang Li | Princeton ECE"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ang Li"
-description              : "Desc: Ang Li's Personal Website"
+description              : "Ang Li's Personal Website"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : angl-dev/angl-dev.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Masthead: Ang Li's Personal Website"
+masthead_title           : "Ang Li | Princeton ECE"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -106,16 +106,28 @@ analytics:
 author:
   name             : "Ang Li"
   avatar           : "/assets/images/avatar.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : >-
+    Ph.D. Candidate
+    <br/>
+    Princeton ECE
+
+  _:
+    # I am a final-year PhD candidate in the [ECE Dept.](https://ece.princeton.edu/) at Princeton Univ.
+    # I am supervised by [Prof. David Wentzlaff](http://www.princeton.edu/~wentzlaf/) who leads the
+    # [Princeton Parallel Group](http://parallel.princeton.edu/).
+    # <br/>
+    # <br/>
+    # I am on the job market this year! You can find my latest CV [here](/assets/pdfs/angl-cv.pdf)!
+
+  location         : "Princeton, NJ, USA"
+  # email            : "angl@princeton.edu"
   links:
-    - label: "Email"
+    - label: "angl (at) princeton (dot) edu"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:angl@princeton.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      # url: "https://angl-dev.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -124,32 +136,32 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/angl-dev"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
 # Site Footer
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+  # links:
+  #   - label: "Twitter"
+  #     icon: "fab fa-fw fa-twitter-square"
+  #     # url:
+  #   - label: "Facebook"
+  #     icon: "fab fa-fw fa-facebook-square"
+  #     # url:
+  #   - label: "GitHub"
+  #     icon: "fab fa-fw fa-github"
+  #     # url:
+  #   - label: "GitLab"
+  #     icon: "fab fa-fw fa-gitlab"
+  #     # url:
+  #   - label: "Bitbucket"
+  #     icon: "fab fa-fw fa-bitbucket"
+  #     # url:
+  #   - label: "Instagram"
+  #     icon: "fab fa-fw fa-instagram"
+  #     # url:
 
 
 # Reading Files

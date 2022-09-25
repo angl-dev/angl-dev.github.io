@@ -126,6 +126,7 @@
   vertical-align: top;
   width: 36px;
   height: 36px;
+  text-align: center;
 
   @include breakpoint($large) {
     display: block;
@@ -134,8 +135,9 @@
   }
 
   img {
-    max-width: 110px;
-    border-radius: 50%;
+    margin: auto;
+    width: 80%;
+    border-radius: 20%;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -166,10 +168,12 @@
 
 .author__name {
   margin: 0;
+  text-align: left;
 
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
   }
 }
 .sidebar .author__name {
@@ -183,6 +187,10 @@
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+
+  a {
+      color: $link-color;
   }
 }
 
