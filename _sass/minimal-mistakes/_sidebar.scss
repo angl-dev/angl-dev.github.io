@@ -61,6 +61,16 @@
     line-height: 1.5;
   }
 
+  .home-nav {
+      margin: 0.5em;
+      text-align: left;
+      font-size: $type-size-5;
+      
+      a {
+        text-decoration: none;
+      }
+  }
+
   img {
     width: 100%;
 
