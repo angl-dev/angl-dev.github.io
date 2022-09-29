@@ -5,15 +5,17 @@ author_profile: true
 
 sidebar:
   - text: <p class="home-nav"><a href="#about-me">About Me</a></p>
-  - text: <p class="home-nav"><a href="#vision">Vision</a></p>
   - text: <p class="home-nav"><a href="#projects">Projects</a></p>
   - text: <p class="home-nav"><a href="#publications">Publications</a></p>
   - text: <p class="home-nav"><a href="#teaching">Teaching</a></p>
 
-feature_section_0:
+unused:
+  - text: <p class="home-nav"><a href="#vision">Vision</a></p>
+
+feature_prga:
   image_path: /assets/images/prga_logo.png
   image_link: https://parallel.princeton.edu/prga/
-  title: Princeton Reconfigurable Gate Array
+  title: PRGA - Princeton Reconfigurable Gate Array
   excerpt: >-
     A silicon-proven, open-source project for generating customizable, synthesizable
     FPGA design with complementary, RTL-to-bitstream CAD toolchain.
@@ -21,6 +23,59 @@ feature_section_0:
     <br/>
     [GitHub](https://github.com/PrincetonUniversity/prga){: .btn .btn--primary }
     [Documentation](https://parallel.princeton.edu/prga/){: .btn .btn--primary }
+
+feature_cifer:
+  image_path: /assets/images/cifer_logo.png
+  image_position: right
+  title: CIFER
+  excerpt: >-
+    _A prototype chip of CIFER has been taped out and tested._
+    _A paper on the chip is currently under review._
+    <br/>
+    <br/>
+    An open-source, heterogeneous, cache-coherent, manycore-eFPGA SoC.
+    CIFER integrates OS-capable cores, parallel tiny core clusters, and eFPGA
+    fabrics in a coherent cache system.
+    The key idea is to partition real-world applications into smaller tasks and
+    run the tasks on the most efficient compute unit.
+    The tiny core clusters and the eFPGAs cover both ends of the
+    parallelization-specialization spectrum, while the OS-capable cores handle
+    dynamic control flow, memory/IO-bound tasks, or any other non-acceleratable
+    parts of an application.
+
+feature_decades:
+  image_path: /assets/images/decades_logo.png
+  image_link: https://decades.cs.princeton.edu
+  title: DECADES
+  excerpt: >-
+    _A prototype chip of DECADES has been taped out and tested._
+    _A paper on the chip is currently under review._
+    <br/>
+    <br/>
+    [Website](https://decades.cs.princeton.edu){: .btn .btn--primary }
+
+feature_order:
+  image_path: https://camo.githubusercontent.com/e091743c32246b3f4ba2ce1671d715574d7ef87764b0b8e14464d01001b08956/68747470733a2f2f656661626c6573732d70726f64756374696f6e2d6d61726b6574706c6163652e73332e616d617a6f6e6177732e636f6d2f6174746163686d656e74732f70726f6a656374732f35633865356532302d366238342d346135612d613163312d6133376664306331636266382f436170747572652e504e47
+  image_link: https://github.com/angl-dev/caravel_mpw5_prga
+  image_position: right
+  title: ORDER
+  excerpt: >-
+    _ORDER has been selected for
+    [OpenMPW-6](https://efabless.com/open_shuttle_program) and will be taped out 
+    at SkyWater 130nm!_
+    <br/>
+    <br/>
+    ORDER is a microcontroller-eFPGA SoC designed with fully open-source
+    hardware projects
+    ([Caravel](https://caravel-harness.readthedocs.io/en/latest/) and
+    [PRGA](#feature-prga)),
+    PDK ([SkyWater130](https://skywater-pdk.readthedocs.io/en/main/)), and EDA
+    toolchain ([OpenROAD](https://theopenroadproject.org)).
+    <br/>
+    <br/>
+    [GitHub](https://github.com/angl-dev/caravel_mpw5_prga){: .btn .btn--primary }
+    [OpenMPW Project](https://platform.efabless.com/projects/1026){: .btn .btn--primary }
+
 ---
 
 # About Me
@@ -31,6 +86,7 @@ who leads the [Princeton Parallel Group](http://parallel.princeton.edu/).
 
 **I am on the job market this year. You can find my latest CV [here](/assets/pdfs/CV.pdf).**
 
+<!--
 # Vision
 
 The stagnation of transistor scaling has motivated vertical integration
@@ -64,6 +120,7 @@ in an early but rapid-growing stage.
 The huge design space of reconfigurable architectures is yet to be explored, and
 the software support (e.g. compiler) for these novel architectures is also in
 urgent need for research.
+-->
 
 <!--
 During my Ph.D., I had the opportunity to work on multiple projects
@@ -99,7 +156,11 @@ These experiences
 
 # Projects
 
-{% include feature_section id="feature_section_0" %}
+<a id="feature-prga"/> 
+{% include feature_section id="feature_prga" %}
+{% include feature_section id="feature_cifer" %}
+{% include feature_section id="feature_decades" %}
+{% include feature_section id="feature_order" %}
 
 # Publications
 
