@@ -16,13 +16,26 @@ feature_prga:
   image_path: /assets/images/prga_logo.png
   image_link: https://parallel.princeton.edu/prga/
   title: PRGA - Princeton Reconfigurable Gate Array
+  image_position: right
   excerpt: >-
     A silicon-proven, open-source project for generating customizable, synthesizable
     FPGA design with complementary, RTL-to-bitstream CAD toolchain.
     <br/>
     <br/>
+    [Paper DOI](https://doi.org/10.1145/3431920.3439294){: .btn .btn--primary }
+    [Paper PDF](http://parallel.princeton.edu/papers/FPGA21-Li.pdf){: .btn .btn--primary }
     [GitHub](https://github.com/PrincetonUniversity/prga){: .btn .btn--primary }
     [Documentation](https://parallel.princeton.edu/prga/){: .btn .btn--primary }
+
+feature_duet:
+  title: Duet - Harmonious CPU-FPGA Integration
+  excerpt: >-
+    _A paper on Duet is currently under peer review._
+    <br/>
+    <br/>
+    A novel approach to integrate manycores and multiple eFPGA fabrics to
+    exploit fine-grained acceleration opportunities in the broad application
+    domain.
 
 feature_cifer:
   image_path: /assets/images/cifer_logo.png
@@ -30,26 +43,37 @@ feature_cifer:
   title: CIFER
   excerpt: >-
     _A prototype chip of CIFER has been taped out and tested._
-    _A paper on the chip is currently under review._
+    _A paper on the chip is currently under peer review._
     <br/>
     <br/>
     An open-source, heterogeneous, cache-coherent, manycore-eFPGA SoC.
     CIFER integrates OS-capable cores, parallel tiny core clusters, and eFPGA
-    fabrics in a coherent cache system.
+    fabrics in a coherent cache system, covering both ends of the
+    parallelization-specialization spectrum.
+
+    <!--
     The key idea is to partition real-world applications into smaller tasks and
     run the tasks on the most efficient compute unit.
     The tiny core clusters and the eFPGAs cover both ends of the
     parallelization-specialization spectrum, while the OS-capable cores handle
     dynamic control flow, memory/IO-bound tasks, or any other non-acceleratable
     parts of an application.
+    -->
 
 feature_decades:
   image_path: /assets/images/decades_logo.png
   image_link: https://decades.cs.princeton.edu
+  image_position: left
   title: DECADES
   excerpt: >-
     _A prototype chip of DECADES has been taped out and tested._
-    _A paper on the chip is currently under review._
+    _A paper on the chip is currently under peer review._
+    <br/>
+    <br/>
+    A heterogeneous, cache-coherent SoC with processors, specialized
+    accelerators, intelligent storage units, and eFPGAs.
+    The project is part of an effort to create hardware and software that can be
+    reconfigured on the fly to accelerate important applications.
     <br/>
     <br/>
     [Website](https://decades.cs.princeton.edu){: .btn .btn--primary }
@@ -158,6 +182,7 @@ These experiences
 
 <a id="feature-prga"/> 
 {% include feature_section id="feature_prga" %}
+{% include feature_section id="feature_duet" %}
 {% include feature_section id="feature_cifer" %}
 {% include feature_section id="feature_decades" %}
 {% include feature_section id="feature_order" %}
