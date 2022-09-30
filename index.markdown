@@ -2,6 +2,7 @@
 layout: single
 title: false
 author_profile: true
+analytics: true
 
 sidebar:
   - text: <p class="home-nav"><a href="#about-me">About Me</a></p>
