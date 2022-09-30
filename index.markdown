@@ -108,6 +108,15 @@ I am a final-year Ph.D. candidate in the ECE department, Princeton University.
 I am supervised by [Prof. David Wentzlaff](https://www.princeton.edu/~wentzlaf/)
 who leads the [Princeton Parallel Group](http://parallel.princeton.edu/).
 
+My research spreads across VLSI design methodology, reconfigurable architecture,
+heterogeneous integration, hardware acceleration, and programming models for
+heterogeneous/reconfigurable architectures.
+I enjoy building chips so as to validate and evaluate my ideas with high
+fidelity.
+I am also an advocator of open-source hardware/research platforms as they
+increase research creditability/reproducibility and encourage community-wide
+collaboration.
+
 **I am on the job market this year. You can find my latest CV [here](/assets/pdfs/CV.pdf).**
 
 <!--
@@ -191,19 +200,19 @@ These experiences
 
 ## Conference Publications
 
-* **[FPGA'21]** **Ang Li**, David Wentzlaff, _"PRGA: An Open-Source FPGA Research and Prototyping Framework"_, 29th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, Feb./Mar. 2021 ([ACM DL](https://doi.org/10.1145/3431920.3439294) \| [PDF](http://parallel.princeton.edu/papers/FPGA21-Li.pdf) \| [Recorded Presentation](https://dl.acm.org/doi/10.1145/3431920.3439294#))
+* **[FPGA'21]** **Ang Li**, David Wentzlaff, _"PRGA: An Open-Source FPGA Research and Prototyping Framework"_, 29th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, Feb./Mar. 2021 ([DOI](https://doi.org/10.1145/3431920.3439294) \| [PDF](http://parallel.princeton.edu/papers/FPGA21-Li.pdf) \| [Recorded Presentation](https://dl.acm.org/doi/10.1145/3431920.3439294#))
 * **[FPL'20]** **Ang Li**, Ting-Jung Chang, David Wentzlaff, _"Automated Design
   of FPGAs Facilitated by Cycle-Free Routing"_, 30th International Conference on
   Field-Programmable Logic and Applications, Aug./Sep. 2020
-  ([IEEE Xplore](https://doi.org/10.1109/FPL50879.2020.00042) \|
+  ([DOI](https://doi.org/10.1109/FPL50879.2020.00042) \|
   [PDF](http://parallel.princeton.edu/papers/FPL20-Li.pdf))
-* **[ASPLOS'20]** Jonathan Balkind, Katie Lim, Michael Schaffner, Fei Gao, Grigory Chirkov, **Ang Li**, Alexey Lavrov, Tri M. Nguyen, Yaosheng Fu, Florian Zaruba, Kunal Gulati, Luca Benini, and David Wentzlaff, _"BYOC: A "Bring Your Own Core" Framework for Heterogeneous-ISA Research"_, 25th International Conference on Architectural Support for Programming Languages and Operating Systems, Mar. 2020 ([ACM DL](https://doi.org/10.1145/3373376.3378479) \| [PDF](http://parallel.princeton.edu/papers/aspl20-balkind.pdf))
-* **[ISLPED'15]** Shuangchen Li, **Ang Li**, Yuan Zhe, Yongpan Liu, Peng Li, Guangyu Sun, Yu Wang, Huazhong Yang, and Yuan Xie, _"Leveraging emerging nonvolatile memory in high-level synthesis with loop transformations"_, International Symposium on Low Port Electronics and Design, Jul. 2015 ([IEEE Xplore](https://doi.org/10.1109/ISLPED.2015.7273491))
-* **[ASPDAC'15]** Shuangchen Li, **Ang Li**, Yongpan Liu, Yuan Xie, and Huazhong Yang, _"Nonvolatile memory allocation and hierarchy optimization for high-level synthesis"_, 20th Asia and South Pacific Design Automation Conference, Jan. 2015 ([IEEE Xplore](https://doi.org/10.1109/ASPDAC.2015.7058999))
+* **[ASPLOS'20]** Jonathan Balkind, Katie Lim, Michael Schaffner, Fei Gao, Grigory Chirkov, **Ang Li**, Alexey Lavrov, Tri M. Nguyen, Yaosheng Fu, Florian Zaruba, Kunal Gulati, Luca Benini, and David Wentzlaff, _"BYOC: A "Bring Your Own Core" Framework for Heterogeneous-ISA Research"_, 25th International Conference on Architectural Support for Programming Languages and Operating Systems, Mar. 2020 ([DOI](https://doi.org/10.1145/3373376.3378479) \| [PDF](http://parallel.princeton.edu/papers/aspl20-balkind.pdf))
+* **[ISLPED'15]** Shuangchen Li, **Ang Li**, Yuan Zhe, Yongpan Liu, Peng Li, Guangyu Sun, Yu Wang, Huazhong Yang, and Yuan Xie, _"Leveraging emerging nonvolatile memory in high-level synthesis with loop transformations"_, International Symposium on Low Port Electronics and Design, Jul. 2015 ([DOI](https://doi.org/10.1109/ISLPED.2015.7273491))
+* **[ASPDAC'15]** Shuangchen Li, **Ang Li**, Yongpan Liu, Yuan Xie, and Huazhong Yang, _"Nonvolatile memory allocation and hierarchy optimization for high-level synthesis"_, 20th Asia and South Pacific Design Automation Conference, Jan. 2015 ([DOI](https://doi.org/10.1109/ASPDAC.2015.7058999))
 
 ## Journal Publications
 
-* **[IEEE Micro]** Jonathan Balkind, Ting-Jung Chang, Paul J. Jackson, Georgios Tziantzioulis, **Ang Li**, Fei Gao, Alexey Lavrov, Grigory Chirkov, Jinzheng Tu, Mohammad Shahrad, and David Wentzlaff, "OpenPiton at 5: A Nexus for Open and Agile Hardware Design", IEEE Micro Vol. 40, No. 1, Jul./Aug. 2020 ([IEEE Xplore](https://doi.org/10.1109/MM.2020.2997706) \| [PDF](http://parallel.princeton.edu/papers/ieee20-balkind.pdf))
+* **[IEEE Micro]** Jonathan Balkind, Ting-Jung Chang, Paul J. Jackson, Georgios Tziantzioulis, **Ang Li**, Fei Gao, Alexey Lavrov, Grigory Chirkov, Jinzheng Tu, Mohammad Shahrad, and David Wentzlaff, "OpenPiton at 5: A Nexus for Open and Agile Hardware Design", IEEE Micro Vol. 40, No. 1, Jul./Aug. 2020 ([DOI](https://doi.org/10.1109/MM.2020.2997706) \| [PDF](http://parallel.princeton.edu/papers/ieee20-balkind.pdf))
 
 ## Workshops and Posters
 
