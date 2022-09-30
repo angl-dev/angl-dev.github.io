@@ -115,7 +115,7 @@ heterogeneous/reconfigurable architectures.
 I enjoy building chips so as to validate and evaluate my ideas with high
 fidelity.
 I am also an advocator of open-source hardware/research platforms as they
-increase research creditability/reproducibility and encourage community-wide
+increase research credibility/reproducibility and encourage community-wide
 collaboration.
 
 **I am on the job market this year. You can find my latest CV [here](/assets/pdfs/CV.pdf).**
