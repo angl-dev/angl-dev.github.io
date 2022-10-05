@@ -203,27 +203,27 @@ These experiences
 
 ## Conference Publications
 
-* **[FPGA'21]** **Ang Li**, David Wentzlaff, _"PRGA: An Open-Source FPGA Research and Prototyping Framework"_, 29th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, Feb./Mar. 2021 ([DOI](https://doi.org/10.1145/3431920.3439294) \| [PDF](http://parallel.princeton.edu/papers/FPGA21-Li.pdf) \| [Recorded Presentation](https://dl.acm.org/doi/10.1145/3431920.3439294#))
-* **[FPL'20]** **Ang Li**, Ting-Jung Chang, David Wentzlaff, _"Automated Design
+* **[FPGA'21]** <span style="color: #9f9f9f">**Ang Li**</span>, David Wentzlaff, _"PRGA: An Open-Source FPGA Research and Prototyping Framework"_, 29th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, Feb./Mar. 2021 ([DOI](https://doi.org/10.1145/3431920.3439294) \| [PDF](http://parallel.princeton.edu/papers/FPGA21-Li.pdf) \| [Recorded Presentation](https://dl.acm.org/doi/10.1145/3431920.3439294#))
+* **[FPL'20]** <span style="color: #9f9f9f">**Ang Li**</span>, Ting-Jung Chang, David Wentzlaff, _"Automated Design
   of FPGAs Facilitated by Cycle-Free Routing"_, 30th International Conference on
   Field-Programmable Logic and Applications, Aug./Sep. 2020
   ([DOI](https://doi.org/10.1109/FPL50879.2020.00042) \|
   [PDF](http://parallel.princeton.edu/papers/FPL20-Li.pdf))
-* **[ASPLOS'20]** Jonathan Balkind, Katie Lim, Michael Schaffner, Fei Gao, Grigory Chirkov, **Ang Li**, Alexey Lavrov, Tri M. Nguyen, Yaosheng Fu, Florian Zaruba, Kunal Gulati, Luca Benini, and David Wentzlaff, _"BYOC: A "Bring Your Own Core" Framework for Heterogeneous-ISA Research"_, 25th International Conference on Architectural Support for Programming Languages and Operating Systems, Mar. 2020 ([DOI](https://doi.org/10.1145/3373376.3378479) \| [PDF](http://parallel.princeton.edu/papers/aspl20-balkind.pdf))
-* **[ISLPED'15]** Shuangchen Li, **Ang Li**, Yuan Zhe, Yongpan Liu, Peng Li, Guangyu Sun, Yu Wang, Huazhong Yang, and Yuan Xie, _"Leveraging emerging nonvolatile memory in high-level synthesis with loop transformations"_, International Symposium on Low Port Electronics and Design, Jul. 2015 ([DOI](https://doi.org/10.1109/ISLPED.2015.7273491))
-* **[ASPDAC'15]** Shuangchen Li, **Ang Li**, Yongpan Liu, Yuan Xie, and Huazhong Yang, _"Nonvolatile memory allocation and hierarchy optimization for high-level synthesis"_, 20th Asia and South Pacific Design Automation Conference, Jan. 2015 ([DOI](https://doi.org/10.1109/ASPDAC.2015.7058999))
+* **[ASPLOS'20]** Jonathan Balkind, Katie Lim, Michael Schaffner, Fei Gao, Grigory Chirkov, <span style="color: #9f9f9f">**Ang Li**</span>, Alexey Lavrov, Tri M. Nguyen, Yaosheng Fu, Florian Zaruba, Kunal Gulati, Luca Benini, and David Wentzlaff, _"BYOC: A "Bring Your Own Core" Framework for Heterogeneous-ISA Research"_, 25th International Conference on Architectural Support for Programming Languages and Operating Systems, Mar. 2020 ([DOI](https://doi.org/10.1145/3373376.3378479) \| [PDF](http://parallel.princeton.edu/papers/aspl20-balkind.pdf))
+* **[ISLPED'15]** Shuangchen Li, <span style="color: #9f9f9f">**Ang Li**</span>, Yuan Zhe, Yongpan Liu, Peng Li, Guangyu Sun, Yu Wang, Huazhong Yang, and Yuan Xie, _"Leveraging emerging nonvolatile memory in high-level synthesis with loop transformations"_, International Symposium on Low Port Electronics and Design, Jul. 2015 ([DOI](https://doi.org/10.1109/ISLPED.2015.7273491))
+* **[ASPDAC'15]** Shuangchen Li, <span style="color: #9f9f9f">**Ang Li**</span>, Yongpan Liu, Yuan Xie, and Huazhong Yang, _"Nonvolatile memory allocation and hierarchy optimization for high-level synthesis"_, 20th Asia and South Pacific Design Automation Conference, Jan. 2015 ([DOI](https://doi.org/10.1109/ASPDAC.2015.7058999))
 
 ## Journal Publications
 
-* **[IEEE Micro]** Jonathan Balkind, Ting-Jung Chang, Paul J. Jackson, Georgios Tziantzioulis, **Ang Li**, Fei Gao, Alexey Lavrov, Grigory Chirkov, Jinzheng Tu, Mohammad Shahrad, and David Wentzlaff, "OpenPiton at 5: A Nexus for Open and Agile Hardware Design", IEEE Micro Vol. 40, No. 1, Jul./Aug. 2020 ([DOI](https://doi.org/10.1109/MM.2020.2997706) \| [PDF](http://parallel.princeton.edu/papers/ieee20-balkind.pdf))
+* **[IEEE Micro]** Jonathan Balkind, Ting-Jung Chang, Paul J. Jackson, Georgios Tziantzioulis, <span style="color: #9f9f9f">**Ang Li**</span>, Fei Gao, Alexey Lavrov, Grigory Chirkov, Jinzheng Tu, Mohammad Shahrad, and David Wentzlaff, "OpenPiton at 5: A Nexus for Open and Agile Hardware Design", IEEE Micro Vol. 40, No. 1, Jul./Aug. 2020 ([DOI](https://doi.org/10.1109/MM.2020.2997706) \| [PDF](http://parallel.princeton.edu/papers/ieee20-balkind.pdf))
 
 ## Workshops and Posters
 
-* **[FPGA'20, Poster]** **Ang Li**, and David Wentzlaff, _"Cycle-Free FPGA Routing Graphs"_, 28th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, Feb. 2020
-* **[OSDA'19, Workshop]** **Ang Li**, and David Wentzlaff, _"PRGA: An
+* **[FPGA'20, Poster]** <span style="color: #9f9f9f">**Ang Li**</span>, and David Wentzlaff, _"Cycle-Free FPGA Routing Graphs"_, 28th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, Feb. 2020
+* **[OSDA'19, Workshop]** <span style="color: #9f9f9f">**Ang Li**</span>, and David Wentzlaff, _"PRGA: An
   Open-source Framework for Building and Using Custom FPGAs"_, 1st Workshop on
   Open-Source Design Automation, Mar. 2019
-* **[WOSET'18, Workshop]** Jonathan Balkind, Alexey Lavrov, Michael McKeown, Yaosheng Fu, Tri Nguyen, Mohammad Shahrad, **Ang Li**, Katie Lim, Yanqi Zhou, Ting-Jung Chang, Paul Jackson, Adi Fuchs, Samuel Payne, Xiaohua Liang, Matthew Matl, and David Wentzlaff, _"OpenPiton: An Emerging Standard for Open-Source EDA Tool Development"_, Workshop on Open-Source EDA Technology, Nov. 2018
+* **[WOSET'18, Workshop]** Jonathan Balkind, Alexey Lavrov, Michael McKeown, Yaosheng Fu, Tri Nguyen, Mohammad Shahrad, <span style="color: #9f9f9f">**Ang Li**</span>, Katie Lim, Yanqi Zhou, Ting-Jung Chang, Paul Jackson, Adi Fuchs, Samuel Payne, Xiaohua Liang, Matthew Matl, and David Wentzlaff, _"OpenPiton: An Emerging Standard for Open-Source EDA Tool Development"_, Workshop on Open-Source EDA Technology, Nov. 2018
 
 # Teaching
 
