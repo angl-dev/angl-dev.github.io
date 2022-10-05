@@ -231,7 +231,6 @@ These experiences
   Integrated (VLSI) Systems_, 2022 Fall
 * Mentor, Google Summer of Code, _PRGA + FASM: Open-Source Bitgen for FPGAs_,
   2020 Summer
-  Elements for a Reconfigurable Gate Array_, 2019 Fall
 * Teaching Assistant, ECE 475/575 (also COS 475), _Computer Architecture_, 2018
   Fall
 * Co-Advisory of Undergraduate Research
