@@ -122,6 +122,11 @@ body {
     font-size: 1em;
   }
 
+  /* p in list item: no margin */
+  li>p {
+      margin: 0.2em;
+  }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
