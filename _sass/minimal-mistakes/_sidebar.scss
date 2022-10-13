@@ -58,11 +58,13 @@
   li {
     font-family: $sans-serif;
     font-size: $type-size-6;
-    line-height: 1.5;
+    // line-height: 1.5;
+    // margin: 0.2em;
   }
 
   .home-nav {
-      margin: 0.5em;
+      margin: 0.2em;
+      // margin: 0.5em;
       text-align: left;
       font-size: $type-size-5;
       

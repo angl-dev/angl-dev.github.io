@@ -4,7 +4,7 @@
   {% assign section = page.feature_section %}
 {% endif %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" {% if include.id %}id="{{ include.id }}"{% endif %}>
   <div class="feature__section{% if section.image_path and section.image_position == 'right' %} feature__section-swap{% endif %}">
     {% if section.image_path %}
       <div class="feature__image{% if section.image_class %} {{ section.image_class }}{% endif %}">

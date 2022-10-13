@@ -119,7 +119,7 @@ author:
     # <br/>
     # I am on the job market this year! You can find my latest CV [here](/assets/pdfs/angl-cv.pdf)!
 
-  location         : "Princeton, NJ, USA"
+  # location         : "Princeton, NJ, USA"
   # email            : "angl@princeton.edu"
   links:
     - label: "angl (at) princeton (dot) edu"
@@ -140,6 +140,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Google Scholar"
+      icon: "ai ai-fw ai-google-scholar-square"
+      url: "https://scholar.google.com/citations?user=gOD_k4wAAAAJ&hl=en"
 
 # Site Footer
 footer:
