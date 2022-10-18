@@ -17,7 +17,7 @@ sidebar:
           <li><a href="#feature_order">ORDER</a></li>
       </ul>
 
-  - text: <p class="home-nav"><a href="#referred-publications">Publications</a></p>
+  - text: <p class="home-nav"><a href="#referred-publications-full-list">Publications</a></p>
   - text: <p class="home-nav"><a href="#teaching">Teaching</a></p>
 
 unused:
@@ -260,12 +260,15 @@ These experiences
 {% include feature_section id="feature_decades" %}
 {% include feature_section id="feature_order" %}
 
-# Referred Publications
+# Referred Publications ([Full List](/publications))
 
 ## Conference Publications
 
 <div class="pub">
-  <div class="conf"><span>HPCA'23</span></div>
+  <div class="conf">
+    <span>HPCA'23</span>
+    <br/><span class="doctype">To Appear</span>
+  </div>
   <div class="pub-info">
     <p class="title">Duet: Creating Harmony between Processors and Embedded FPGAs</p>
     <p class="authors"><b><u>Ang Li</u></b>, August Ning, David Wentzlaff</p>
@@ -281,7 +284,7 @@ These experiences
       <a class="link" href="https://dl.acm.org/doi/10.1145/3431920.3439294#"><i class="far fa-file-video"></i> Recorded Presentation</a>
     </p>
     <p class="authors"><b><u>Ang Li</u></b>, David Wentzlaff</p>
-    <p class="venue">The 29th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (<a href="https://www.isfpga.org/past/fpga2021/">FPGA-21</a>), Feb-Mar 2021, Virtual</p>
+    <p class="venue">The 29th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (<a href="https://www.isfpga.org/past/fpga2021/">FPGA-29</a>), Feb-Mar 2021, Virtual</p>
   </div>
 
   <div class="conf"><span>FPL'20</span></div>
@@ -292,7 +295,7 @@ These experiences
       <a class="link" href="http://parallel.princeton.edu/papers/FPL20-Li.pdf"><i class="far fa-file-pdf"></i> PDF</a>
     </p>
     <p class="authors"><b><u>Ang Li</u></b>, Ting-Jung Chang, David Wentzlaff</p>
-    <p class="venue">The 30th International Conference on Field-Programmable Logic and Applications (<a href="https://www.fpl2020.org/">FPL-20</a>), Aug-Sep 2020, Virtual</p>
+    <p class="venue">The 30th International Conference on Field-Programmable Logic and Applications (<a href="https://www.fpl2020.org/">FPL-30</a>), Aug-Sep 2020, Virtual</p>
   </div>
 
   <div class="conf"><span>ASPLOS'20</span></div>
@@ -303,30 +306,8 @@ These experiences
       <a class="link" href="http://parallel.princeton.edu/papers/aspl20-balkind.pdf"><i class="far fa-file-pdf"></i> PDF</a>
     </p>
     <p class="authors">Jonathan Balkind, Katie Lim, Michael Schaffner, Fei Gao, Grigory Chirkov, <b><u>Ang Li</u></b>, Alexey Lavrov, Tri M. Nguyen, Yaosheng Fu, Florian Zaruba, Kunal Gulati, Luca Benini, David Wentzlaff</p>
-    <p class="venue">The 25th International Conference on Architectural Support for Programming Languages and Operating Systems (<a href="https://asplos-conference.org/2020/">ASPLOS-20</a>), Mar 2020, Lausanne, Switzerland</p>
+    <p class="venue">The 25th International Conference on Architectural Support for Programming Languages and Operating Systems (<a href="https://asplos-conference.org/2020/">ASPLOS-25</a>), Mar 2020, Lausanne, Switzerland</p>
   </div>
-
-  <!--
-  <div class="conf"><span>ISLPED'15</span></div>
-  <div class="pub-info">
-    <p class="title">Leveraging Emerging Nonvolatile Memory in High-Level Synthesis with Loop Transformations</p>
-    <p class="links">
-      <a class="link" href="https://doi.org/10.1109/ISLPED.2015.7273491"><i class="ai ai-doi"></i> DOI</a>
-    </p>
-    <p class="authors">Shuangchen Li, <b><u>Ang Li</u></b>, Yuan Zhe, Yongpan Liu, Peng Li, Guangyu Sun, Yu Wang, Huazhong Yang, Yuan Xie</p>
-    <p class="venue">2015 IEEE/ACM International Symposium on Low Power Electronics and Design (<a href="http://islped.org/2015/">ISPLED-15</a>), July 2015, Rome, Italy</p>
-  </div>
-
-  <div class="conf"><span>ASPDAC'15</span></div>
-  <div class="pub-info">
-    <p class="title">Nonvolatile Memory Allocation and Hierarchy Optimization for High-Level Synthesis</p>
-    <p class="links">
-      <a class="link" href="https://doi.org/10.1109/ASPDAC.2015.7058999"><i class="ai ai-doi"></i> DOI</a>
-    </p>
-    <p class="authors">Shuangchen Li, <b><u>Ang Li</u></b>, Yongpan Liu, Yuan Xie, Huazhong Yang</p>
-    <p class="venue">The 20th Asia and South Pacific Design Automation Conference (<a href="https://www.aspdac.com/aspdac2015/">ASPDAC-15</a>), Jan 2015, Chiba/Tokyo, Japan</p>
-  </div>
-  -->
 
 </div>
 
@@ -348,28 +329,35 @@ These experiences
 ## Workshops and Posters
 
 <div class="pub">
-  <div class="conf"><span>FPGA'20</span></div>
+  <div class="conf">
+    <span>FPGA'20</span>
+    <br/><span class="doctype">Poster</span>
+  </div>
   <div class="pub-info">
-    <p class="title">(Poster) Cycle-Free FPGA Routing Graphs</p>
+    <p class="title">Cycle-Free FPGA Routing Graphs</p>
     <p class="links">
       <a class="link" href="https://doi.org/10.1145/3373087.3375354"><i class="ai ai-doi"></i> DOI</a>
       <a class="link" href="/assets/pdfs/fpga20.pdf"><i class="far fa-file-pdf"></i> PDF</a>
       <a class="link" href="/assets/pdfs/fpga20_poster.pdf"><i class="far fa-file-pdf"></i> Poster</a>
     </p>
     <p class="authors"><b><u>Ang Li</u></b>, David Wentzlaff</p>
-    <p class="venue">The 28th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (<a href="https://www.isfpga.org/past/fpga2020/">FPGA-20</a>), Feb 2020, Seaside, California, USA</p>
+    <p class="venue">The 28th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (<a href="https://www.isfpga.org/past/fpga2020/">FPGA-28</a>), Feb 2020, Seaside, California, USA</p>
   </div>
+
+  <div class="conf">
+    <span>OSDA'19</span>
+    <br/><span class="doctype">Workshop</span>
+  </div>
+  <div class="pub-info">
+    <p class="title">PRGA: An Open-source Framework for Building and Using Custom FPGAs</p>
+    <p class="links">
+      <a class="link" href="/assets/pdfs/osda19.pdf"><i class="far fa-file-pdf"></i> PDF</a>
+    </p>
+    <p class="authors"><b><u>Ang Li</u></b>, David Wentzlaff</p>
+    <p class="venue">The 1st Workshop on Open Source Design Automation (<a href="https://osda.gitlab.io/">OSDA</a>), Mar 2019, Florence, Italy</p>
+  </div>
+
 </div>
-
-<!--
-* **[OSDA'19, Workshop]** **<u>Ang Li</u>**, and David Wentzlaff, _"PRGA: An
-  Open-source Framework for Building and Using Custom FPGAs"_, 1st Workshop on
-  Open-Source Design Automation, Mar. 2019
-
-  [<i class="far fa-file-pdf"/> PDF](/assets/pdfs/osda19.pdf){: .btn .btn--primary .btn--small }
-
-* **[WOSET'18, Workshop]** Jonathan Balkind, Alexey Lavrov, Michael McKeown, Yaosheng Fu, Tri Nguyen, Mohammad Shahrad, **<u>Ang Li</u>**, Katie Lim, Yanqi Zhou, Ting-Jung Chang, Paul Jackson, Adi Fuchs, Samuel Payne, Xiaohua Liang, Matthew Matl, and David Wentzlaff, _"OpenPiton: An Emerging Standard for Open-Source EDA Tool Development"_, Workshop on Open-Source EDA Technology, Nov. 2018
--->
 
 # Teaching
 

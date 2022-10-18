@@ -204,15 +204,26 @@ body {
       span {
         display: inline-block;
         text-align: right;
-        background: $warning-color;
+        background: $text-color;
+        color: $background-color;
         font-weight: bold;
         border-radius: 0.2em;
         padding: 0 0.2em 0 0.2em;
-        // margin-right: 0.2em;
+        margin-bottom: 0.1em;
+      }
+
+      span.doctype {
+        font-size: $type-size-6;
+        // background: $info-color;
       }
     }
 
     div.pub-info {
+      border-bottom: 1px solid $border-color;
+      &:last-child {
+        border-bottom: none;
+      }
+
       p {
         margin-bottom: 0.2em;
       }
@@ -227,6 +238,10 @@ body {
           @extend .btn--primary;
           @extend .btn--small;
         }
+      }
+
+      p.venue {
+        font-size: $type-size-6;
       }
     }
   }
