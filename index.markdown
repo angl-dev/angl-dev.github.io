@@ -11,12 +11,13 @@ sidebar:
       <ul class="home-nav">
           <li><a href="#feature_prga">PRGA</a></li>
           <li><a href="#feature_duet">Duet</a></li>
+          <li><a href="#feature_gem5_duet">Gem5-Duet</a></li>
           <li><a href="#feature_cifer">CIFER</a></li>
           <li><a href="#feature_decades">DECADES</a></li>
           <li><a href="#feature_order">ORDER</a></li>
       </ul>
 
-  - text: <p class="home-nav"><a href="#publications">Publications</a></p>
+  - text: <p class="home-nav"><a href="#referred-publications">Publications</a></p>
   - text: <p class="home-nav"><a href="#teaching">Teaching</a></p>
 
 unused:
@@ -48,13 +49,41 @@ feature_duet:
 
     <ul class="fa-ul">
         <li><span class="fa-li"><i class="far fa-file"></i></span>
-        Paper under review
+        Paper accepted to HPCA'23!
+        </li>
+        <li><span class="fa-li"><i class="far fa-file"></i></span>
+        arXiv preprint coming soon!
         </li>
     </ul>
 
+feature_gem5_duet:
+  title: gem5 x Duet
+  image_path: https://www.gem5.org/assets/img/gem5logo/Color/noBackground/vertical/gem5ColorVert.png
+  image_position: left
+  excerpt: >-
+    A [gem5](https://www.gem5.org/) extension for simulating tightly-integrated,
+    ASIC or FPGA-based accelerators.
+    Gem5-Duet achieves C/C++-level simulation speed with cycle-level accuracy by
+    compiling the High-Level Synthesis (HLS) source code into the simulator and
+    applying post-HLS timing annotation in the runtime configuration script.
+
+    <!--
+    Gem5-Duet allows multiple CPU threads (hardware or software) to share
+    multiple, heterogeneous accelerators that are integrated into the on-chip
+    cache hierarchy.
+    -->
+
+    <ul class="fa-ul">
+        <li><span class="fa-li"><i class="far fa-handshake"></i></span>
+        In use by researchers at Princeton and UCSC
+        </li>
+    </ul>
+
+    [<i class="fab fa-github"></i> GitHub](https://github.com/angl-dev/gem5-duet){: .btn .btn--primary }
+
 feature_cifer:
   image_path: /assets/images/cifer_logo.png
-  image_position: left
+  image_position: right
   title: CIFER
   excerpt: >-
     An open-source, heterogeneous, cache-coherent, manycore-eFPGA SoC.
@@ -86,7 +115,7 @@ feature_cifer:
 feature_decades:
   image_path: /assets/images/decades_logo.png
   image_link: https://decades.cs.princeton.edu
-  image_position: right
+  image_position: left
   title: DECADES
   excerpt: >-
     A heterogeneous, cache-coherent SoC with processors, specialized
@@ -114,7 +143,7 @@ feature_decades:
 feature_order:
   image_path: https://camo.githubusercontent.com/e091743c32246b3f4ba2ce1671d715574d7ef87764b0b8e14464d01001b08956/68747470733a2f2f656661626c6573732d70726f64756374696f6e2d6d61726b6574706c6163652e73332e616d617a6f6e6177732e636f6d2f6174746163686d656e74732f70726f6a656374732f35633865356532302d366238342d346135612d613163312d6133376664306331636266382f436170747572652e504e47
   image_link: https://github.com/angl-dev/caravel_mpw5_prga
-  image_position: left
+  image_position: right
   title: ORDER
   excerpt: >-
     ORDER is a microcontroller-eFPGA SoC designed with fully open-source
@@ -226,55 +255,113 @@ These experiences
 
 {% include feature_section id="feature_prga" %}
 {% include feature_section id="feature_duet" %}
+{% include feature_section id="feature_gem5_duet" %}
 {% include feature_section id="feature_cifer" %}
 {% include feature_section id="feature_decades" %}
 {% include feature_section id="feature_order" %}
 
-# Publications
+# Referred Publications
 
 ## Conference Publications
 
-* **[FPGA'21]** **<u>Ang Li</u>**, David Wentzlaff, _"PRGA: An Open-Source FPGA Research and Prototyping Framework"_, 29th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, Feb./Mar. 2021
+<div class="pub">
+  <div class="conf"><span>HPCA'23</span></div>
+  <div class="pub-info">
+    <p class="title">Duet: Creating Harmony between Processors and Embedded FPGAs</p>
+    <p class="authors"><b><u>Ang Li</u></b>, August Ning, David Wentzlaff</p>
+    <p class="venue">The 29th IEEE International Symposium on High-Performance Computer Architecture (<a href="https://hpca-conf.org/2023/">HPCA-29</a>), Feb-Mar 2023, Montreal, QC, Canada</p>
+  </div>
 
-  [<i class="ai ai-doi"/> DOI](https://doi.org/10.1145/3431920.3439294){: .btn .btn--primary .btn--small }
-  [<i class="far fa-file-pdf"/> PDF](http://parallel.princeton.edu/papers/FPGA21-Li.pdf){: .btn .btn--primary .btn--small }
-  [<i class="far fa-file-video"></i> Recorded Presentation](https://dl.acm.org/doi/10.1145/3431920.3439294#){: .btn .btn--primary .btn--small }
+  <div class="conf"><span>FPGA'21</span></div>
+  <div class="pub-info">
+    <p class="title">PRGA: An Open-Source FPGA Research and Prototyping Framework</p>
+    <p class="links">
+      <a class="link" href="https://doi.org/10.1145/3431920.3439294"><i class="ai ai-doi"></i> DOI</a>
+      <a class="link" href="http://parallel.princeton.edu/papers/FPGA21-Li.pdf"><i class="far fa-file-pdf"></i> PDF</a>
+      <a class="link" href="https://dl.acm.org/doi/10.1145/3431920.3439294#"><i class="far fa-file-video"></i> Recorded Presentation</a>
+    </p>
+    <p class="authors"><b><u>Ang Li</u></b>, David Wentzlaff</p>
+    <p class="venue">The 29th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (<a href="https://www.isfpga.org/past/fpga2021/">FPGA-21</a>), Feb-Mar 2021, Virtual</p>
+  </div>
 
-* **[FPL'20]** **<u>Ang Li</u>**, Ting-Jung Chang, David Wentzlaff, _"Automated Design
-  of FPGAs Facilitated by Cycle-Free Routing"_, 30th International Conference on
-  Field-Programmable Logic and Applications, Aug./Sep. 2020
+  <div class="conf"><span>FPL'20</span></div>
+  <div class="pub-info">
+    <p class="title">Automated Design of FPGAs Facilitated by Cycle-Free Routing</p>
+    <p class="links">
+      <a class="link" href="https://doi.org/10.1109/FPL50879.2020.00042"><i class="ai ai-doi"></i> DOI</a>
+      <a class="link" href="http://parallel.princeton.edu/papers/FPL20-Li.pdf"><i class="far fa-file-pdf"></i> PDF</a>
+    </p>
+    <p class="authors"><b><u>Ang Li</u></b>, Ting-Jung Chang, David Wentzlaff</p>
+    <p class="venue">The 30th International Conference on Field-Programmable Logic and Applications (<a href="https://www.fpl2020.org/">FPL-20</a>), Aug-Sep 2020, Virtual</p>
+  </div>
 
-  [<i class="ai ai-doi"/> DOI](https://doi.org/10.1109/FPL50879.2020.00042){: .btn .btn--primary .btn--small }
-  [<i class="far fa-file-pdf"/> PDF](http://parallel.princeton.edu/papers/FPL20-Li.pdf){: .btn .btn--primary .btn--small }
+  <div class="conf"><span>ASPLOS'20</span></div>
+  <div class="pub-info">
+    <p class="title">BYOC: A "Bring Your Own Core" Framework for Heterogeneous-ISA Research</p>
+    <p class="links">
+      <a class="link" href="https://doi.org/10.1145/3373376.3378479"><i class="ai ai-doi"></i> DOI</a>
+      <a class="link" href="http://parallel.princeton.edu/papers/aspl20-balkind.pdf"><i class="far fa-file-pdf"></i> PDF</a>
+    </p>
+    <p class="authors">Jonathan Balkind, Katie Lim, Michael Schaffner, Fei Gao, Grigory Chirkov, <b><u>Ang Li</u></b>, Alexey Lavrov, Tri M. Nguyen, Yaosheng Fu, Florian Zaruba, Kunal Gulati, Luca Benini, David Wentzlaff</p>
+    <p class="venue">The 25th International Conference on Architectural Support for Programming Languages and Operating Systems (<a href="https://asplos-conference.org/2020/">ASPLOS-20</a>), Mar 2020, Lausanne, Switzerland</p>
+  </div>
 
-* **[ASPLOS'20]** Jonathan Balkind, Katie Lim, Michael Schaffner, Fei Gao, Grigory Chirkov, **<u>Ang Li</u>**, Alexey Lavrov, Tri M. Nguyen, Yaosheng Fu, Florian Zaruba, Kunal Gulati, Luca Benini, and David Wentzlaff, _"BYOC: A "Bring Your Own Core" Framework for Heterogeneous-ISA Research"_, 25th International Conference on Architectural Support for Programming Languages and Operating Systems, Mar. 2020
+  <!--
+  <div class="conf"><span>ISLPED'15</span></div>
+  <div class="pub-info">
+    <p class="title">Leveraging Emerging Nonvolatile Memory in High-Level Synthesis with Loop Transformations</p>
+    <p class="links">
+      <a class="link" href="https://doi.org/10.1109/ISLPED.2015.7273491"><i class="ai ai-doi"></i> DOI</a>
+    </p>
+    <p class="authors">Shuangchen Li, <b><u>Ang Li</u></b>, Yuan Zhe, Yongpan Liu, Peng Li, Guangyu Sun, Yu Wang, Huazhong Yang, Yuan Xie</p>
+    <p class="venue">2015 IEEE/ACM International Symposium on Low Power Electronics and Design (<a href="http://islped.org/2015/">ISPLED-15</a>), July 2015, Rome, Italy</p>
+  </div>
 
-  [<i class="ai ai-doi"/> DOI](https://doi.org/10.1145/3373376.3378479){: .btn .btn--primary .btn--small }
-  [<i class="far fa-file-pdf"/> PDF](http://parallel.princeton.edu/papers/aspl20-balkind.pdf){: .btn .btn--primary .btn--small }
+  <div class="conf"><span>ASPDAC'15</span></div>
+  <div class="pub-info">
+    <p class="title">Nonvolatile Memory Allocation and Hierarchy Optimization for High-Level Synthesis</p>
+    <p class="links">
+      <a class="link" href="https://doi.org/10.1109/ASPDAC.2015.7058999"><i class="ai ai-doi"></i> DOI</a>
+    </p>
+    <p class="authors">Shuangchen Li, <b><u>Ang Li</u></b>, Yongpan Liu, Yuan Xie, Huazhong Yang</p>
+    <p class="venue">The 20th Asia and South Pacific Design Automation Conference (<a href="https://www.aspdac.com/aspdac2015/">ASPDAC-15</a>), Jan 2015, Chiba/Tokyo, Japan</p>
+  </div>
+  -->
 
-* **[ISLPED'15]** Shuangchen Li, **<u>Ang Li</u>**, Yuan Zhe, Yongpan Liu, Peng Li, Guangyu Sun, Yu Wang, Huazhong Yang, and Yuan Xie, _"Leveraging emerging nonvolatile memory in high-level synthesis with loop transformations"_, International Symposium on Low Port Electronics and Design, Jul. 2015
-
-  [<i class="ai ai-doi"/> DOI](https://doi.org/10.1109/ISLPED.2015.7273491){: .btn .btn--primary .btn--small }
-
-* **[ASPDAC'15]** Shuangchen Li, **<u>Ang Li</u>**, Yongpan Liu, Yuan Xie, and Huazhong Yang, _"Nonvolatile memory allocation and hierarchy optimization for high-level synthesis"_, 20th Asia and South Pacific Design Automation Conference, Jan. 2015
-
-  [<i class="ai ai-doi"/> DOI](https://doi.org/10.1109/ASPDAC.2015.7058999){: .btn .btn--primary .btn--small }
+</div>
 
 ## Journal Publications
 
-* **[IEEE Micro]** Jonathan Balkind, Ting-Jung Chang, Paul J. Jackson, Georgios Tziantzioulis, **<u>Ang Li</u>**, Fei Gao, Alexey Lavrov, Grigory Chirkov, Jinzheng Tu, Mohammad Shahrad, and David Wentzlaff, "OpenPiton at 5: A Nexus for Open and Agile Hardware Design", IEEE Micro Vol. 40, No. 1, Jul./Aug. 2020
-
-  [<i class="ai ai-doi"/> DOI](https://doi.org/10.1109/MM.2020.2997706){: .btn .btn--primary .btn--small }
-  [<i class="far fa-file-pdf"/> PDF](http://parallel.princeton.edu/papers/ieee20-balkind.pdf){: .btn .btn--primary .btn--small }
+<div class="pub">
+  <div class="conf"><span>IEEE Micro</span></div>
+  <div class="pub-info">
+    <p class="title">OpenPiton at 5: A Nexus for Open and Agile Hardware Design</p>
+    <p class="links">
+      <a class="link" href="https://doi.org/10.1109/MM.2020.2997706"><i class="ai ai-doi"></i> DOI</a>
+      <a class="link" href="http://parallel.princeton.edu/papers/ieee20-balkind.pdf"><i class="far fa-file-pdf"></i> PDF</a>
+    </p>
+    <p class="authors">Jonathan Balkind, Ting-Jung Chang, Paul J. Jackson, Georgios Tziantzioulis, <b><u>Ang Li</u></b>, Fei Gao, Alexey Lavrov, Grigory Chirkov, Jinzheng Tu, Mohammad Shahrad, David Wentzlaff</p>
+    <p class="venue">IEEE Micro Vol. 40, No. 1, Jul-Aug 2020</p>
+  </div>
+</div>
 
 ## Workshops and Posters
 
-* **[FPGA'20, Poster]** **<u>Ang Li</u>**, and David Wentzlaff, _"Cycle-Free FPGA Routing Graphs"_, 28th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, Feb. 2020
+<div class="pub">
+  <div class="conf"><span>FPGA'20</span></div>
+  <div class="pub-info">
+    <p class="title">(Poster) Cycle-Free FPGA Routing Graphs</p>
+    <p class="links">
+      <a class="link" href="https://doi.org/10.1145/3373087.3375354"><i class="ai ai-doi"></i> DOI</a>
+      <a class="link" href="/assets/pdfs/fpga20.pdf"><i class="far fa-file-pdf"></i> PDF</a>
+      <a class="link" href="/assets/pdfs/fpga20_poster.pdf"><i class="far fa-file-pdf"></i> Poster</a>
+    </p>
+    <p class="authors"><b><u>Ang Li</u></b>, David Wentzlaff</p>
+    <p class="venue">The 28th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (<a href="https://www.isfpga.org/past/fpga2020/">FPGA-20</a>), Feb 2020, Seaside, California, USA</p>
+  </div>
+</div>
 
-  [<i class="ai ai-doi"/> DOI](https://doi.org/10.1145/3373087.3375354){: .btn .btn--primary .btn--small }
-  [<i class="far fa-file-pdf"/> PDF](/assets/pdfs/fpga20.pdf){: .btn .btn--primary .btn--small }
-  [<i class="far fa-file-pdf"/> Poster](/assets/pdfs/fpga20_poster.pdf){: .btn .btn--primary .btn--small }
-
+<!--
 * **[OSDA'19, Workshop]** **<u>Ang Li</u>**, and David Wentzlaff, _"PRGA: An
   Open-source Framework for Building and Using Custom FPGAs"_, 1st Workshop on
   Open-Source Design Automation, Mar. 2019
@@ -282,6 +369,7 @@ These experiences
   [<i class="far fa-file-pdf"/> PDF](/assets/pdfs/osda19.pdf){: .btn .btn--primary .btn--small }
 
 * **[WOSET'18, Workshop]** Jonathan Balkind, Alexey Lavrov, Michael McKeown, Yaosheng Fu, Tri Nguyen, Mohammad Shahrad, **<u>Ang Li</u>**, Katie Lim, Yanqi Zhou, Ting-Jung Chang, Paul Jackson, Adi Fuchs, Samuel Payne, Xiaohua Liang, Matthew Matl, and David Wentzlaff, _"OpenPiton: An Emerging Standard for Open-Source EDA Tool Development"_, Workshop on Open-Source EDA Technology, Nov. 2018
+-->
 
 # Teaching
 

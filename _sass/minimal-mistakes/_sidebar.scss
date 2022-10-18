@@ -70,7 +70,18 @@
       
       a {
         text-decoration: none;
+        color: $text-color;
       }
+
+      li {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+  }
+
+  ul.home-nav {
+      padding-left: 1em;
   }
 
   img {

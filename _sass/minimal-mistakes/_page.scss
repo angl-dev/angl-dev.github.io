@@ -185,6 +185,51 @@ body {
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+
+  /* Publication records */
+  div.pub {
+    display: grid;
+    grid-template: auto / 6em auto;
+    grid-gap: 0.4em;
+    margin-top: 0.4em;
+
+    p {
+      margin: 0em;
+    }
+
+    div.conf {
+      text-align: right;
+      vertical-align: top;
+
+      span {
+        display: inline-block;
+        text-align: right;
+        background: $warning-color;
+        font-weight: bold;
+        border-radius: 0.2em;
+        padding: 0 0.2em 0 0.2em;
+        // margin-right: 0.2em;
+      }
+    }
+
+    div.pub-info {
+      p {
+        margin-bottom: 0.2em;
+      }
+
+      p.title {
+        font-weight: bold;
+      }
+
+      p.links {
+        a.link {
+          @extend .btn;
+          @extend .btn--primary;
+          @extend .btn--small;
+        }
+      }
+    }
+  }
 }
 
 .page__hero {
