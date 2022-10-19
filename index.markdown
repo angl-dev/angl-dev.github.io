@@ -5,16 +5,16 @@ author_profile: true
 analytics: true
 
 sidebar:
-  - text: <p class="home-nav"><a href="#-about-me"><i class="fas fa-crow"></i> About Me</a></p>
+  - text: <p class="home-nav"><a href="#-about-me"><i class="fas fa-child-reaching"></i> About Me</a></p>
   - text: >-
-      <p class="home-nav"><a href="#-projects"><i class="fas fa-meteor"></i> Projects</a></p>
-      <ul class="home-nav">
-          <li><a href="#feature_prga">PRGA</a></li>
-          <li><a href="#feature_duet">Duet</a></li>
-          <li><a href="#feature_gem5_duet">Gem5-Duet</a></li>
-          <li><a href="#feature_cifer">CIFER</a></li>
-          <li><a href="#feature_decades">DECADES</a></li>
-          <li><a href="#feature_order">ORDER</a></li>
+      <p class="home-nav"><a href="#-projects"><i class="fas fa-screwdriver-wrench"></i> Projects</a></p>
+      <ul class="home-nav fa-ul">
+          <li><span class="fa-li"><i class="fas fa-meteor"></i></span><a href="#feature_prga">PRGA</a></li>
+          <li><span class="fa-li"><i class="fas fa-meteor"></i></span><a href="#feature_duet">Duet</a></li>
+          <li><span class="fa-li"><i class="fas fa-meteor"></i></span><a href="#feature_gem5_duet">Gem5-Duet</a></li>
+          <li><span class="fa-li"><i class="fas fa-meteor"></i></span><a href="#feature_cifer">CIFER</a></li>
+          <li><span class="fa-li"><i class="fas fa-meteor"></i></span><a href="#feature_decades">DECADES</a></li>
+          <li><span class="fa-li"><i class="fas fa-meteor"></i></span><a href="#feature_order">ORDER</a></li>
       </ul>
 
   - text: <p class="home-nav"><a href="#-referred-publications-full-list"><i class="fas fa-box-archive"></i> Publications</a></p>
@@ -26,7 +26,7 @@ unused:
 feature_prga:
   image_path: /assets/images/prga_logo.png
   image_link: https://parallel.princeton.edu/prga/
-  title: PRGA - Princeton Reconfigurable Gate Array
+  title: <i class="fas fa-meteor"></i> PRGA - Princeton Reconfigurable Gate Array
   image_position: left
   excerpt: >-
     A silicon-proven, open-source project for generating customized, synthesizable
@@ -39,7 +39,7 @@ feature_prga:
     [<i class="fas fa-atlas"></i> Documentation](https://parallel.princeton.edu/prga/){: .btn .btn--primary }
 
 feature_duet:
-  title: Duet - Harmonious CPU-FPGA Integration
+  title: <i class="fas fa-meteor"></i> Duet - Harmonious CPU-FPGA Integration
   image_path: /assets/images/arch_duet.png
   image_position: right
   excerpt: >-
@@ -57,7 +57,7 @@ feature_duet:
     </ul>
 
 feature_gem5_duet:
-  title: gem5 x Duet
+  title: <i class="fas fa-meteor"></i> gem5 x Duet
   image_path: https://www.gem5.org/assets/img/gem5logo/Color/noBackground/vertical/gem5ColorVert.png
   image_position: left
   excerpt: >-
@@ -84,7 +84,7 @@ feature_gem5_duet:
 feature_cifer:
   image_path: /assets/images/cifer_logo.png
   image_position: right
-  title: CIFER
+  title: <i class="fas fa-meteor"></i> CIFER
   excerpt: >-
     An open-source, heterogeneous, cache-coherent, manycore-eFPGA SoC.
     CIFER integrates OS-capable cores, parallel tiny core clusters, and eFPGA
@@ -116,7 +116,7 @@ feature_decades:
   image_path: /assets/images/decades_logo.png
   image_link: https://decades.cs.princeton.edu
   image_position: left
-  title: DECADES
+  title: <i class="fas fa-meteor"></i> DECADES
   excerpt: >-
     A heterogeneous, cache-coherent SoC with processors, specialized
     accelerators, intelligent storage units, and eFPGAs.
@@ -144,7 +144,7 @@ feature_order:
   image_path: https://camo.githubusercontent.com/e091743c32246b3f4ba2ce1671d715574d7ef87764b0b8e14464d01001b08956/68747470733a2f2f656661626c6573732d70726f64756374696f6e2d6d61726b6574706c6163652e73332e616d617a6f6e6177732e636f6d2f6174746163686d656e74732f70726f6a656374732f35633865356532302d366238342d346135612d613163312d6133376664306331636266382f436170747572652e504e47
   image_link: https://github.com/angl-dev/caravel_mpw5_prga
   image_position: right
-  title: ORDER
+  title: <i class="fas fa-meteor"></i> ORDER
   excerpt: >-
     ORDER is a microcontroller-eFPGA SoC designed with fully open-source
     hardware projects
@@ -164,7 +164,7 @@ feature_order:
 
 ---
 
-# <i class="fas fa-crow"></i> About Me
+# <i class="fas fa-child-reaching"></i> About Me
 
 I am a final-year Ph.D. candidate in the ECE department, Princeton University.
 I am supervised by [Prof. David Wentzlaff](https://www.princeton.edu/~wentzlaf/)
@@ -251,7 +251,7 @@ As such, I spent my Ph.D. gaining insights across multiple disciplines, includin
 These experiences 
 -->
 
-# <i class="fas fa-meteor"></i> Projects
+# <i class="fas fa-screwdriver-wrench"></i> Projects
 
 {% include feature_section id="feature_prga" %}
 {% include feature_section id="feature_duet" %}
