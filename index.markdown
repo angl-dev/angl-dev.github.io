@@ -5,9 +5,9 @@ author_profile: true
 analytics: true
 
 sidebar:
-  - text: <p class="home-nav"><a href="#about-me">About Me</a></p>
+  - text: <p class="home-nav"><a href="#-about-me"><i class="fas fa-crow"></i> About Me</a></p>
   - text: >-
-      <p class="home-nav"><a href="#projects">Projects</a></p>
+      <p class="home-nav"><a href="#-projects"><i class="fas fa-meteor"></i> Projects</a></p>
       <ul class="home-nav">
           <li><a href="#feature_prga">PRGA</a></li>
           <li><a href="#feature_duet">Duet</a></li>
@@ -17,8 +17,8 @@ sidebar:
           <li><a href="#feature_order">ORDER</a></li>
       </ul>
 
-  - text: <p class="home-nav"><a href="#referred-publications-full-list">Publications</a></p>
-  - text: <p class="home-nav"><a href="#teaching">Teaching</a></p>
+  - text: <p class="home-nav"><a href="#-referred-publications-full-list"><i class="fas fa-box-archive"></i> Publications</a></p>
+  - text: <p class="home-nav"><a href="#-teaching"><i class="fas fa-person-chalkboard"></i> Teaching</a></p>
 
 unused:
   - text: <p class="home-nav"><a href="#vision">Vision</a></p>
@@ -164,7 +164,7 @@ feature_order:
 
 ---
 
-# About Me
+# <i class="fas fa-crow"></i> About Me
 
 I am a final-year Ph.D. candidate in the ECE department, Princeton University.
 I am supervised by [Prof. David Wentzlaff](https://www.princeton.edu/~wentzlaf/)
@@ -251,7 +251,7 @@ As such, I spent my Ph.D. gaining insights across multiple disciplines, includin
 These experiences 
 -->
 
-# Projects
+# <i class="fas fa-meteor"></i> Projects
 
 {% include feature_section id="feature_prga" %}
 {% include feature_section id="feature_duet" %}
@@ -260,7 +260,7 @@ These experiences
 {% include feature_section id="feature_decades" %}
 {% include feature_section id="feature_order" %}
 
-# Referred Publications ([Full List](/publications))
+# <i class="fas fa-box-archive"></i> Referred Publications ([Full List](/publications))
 
 ## Conference Publications
 
@@ -359,7 +359,7 @@ These experiences
 
 </div>
 
-# Teaching
+# <i class="fas fa-person-chalkboard"></i> Teaching
 
 * Teaching Assistant, ECE 462/562 (also COS 462), _Design of Very Large-Scale
   Integrated (VLSI) Systems_, 2022 Fall

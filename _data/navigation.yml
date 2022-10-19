@@ -11,12 +11,12 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "About Me"
-    url: /#about-me
+    url: /#-about-me
   - title: "Projects"
-    url: /#projects
+    url: /#-projects
   - title: "Publications"
-    url: /#referred-publications-full-list
+    url: /#-referred-publications-full-list
   - title: "Teaching"
-    url: /#teaching
+    url: /#-teaching
   - title: "CV"
     url: /assets/pdfs/CV.pdf
