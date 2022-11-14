@@ -181,7 +181,7 @@ I am also an advocator of open-source hardware/research as they
 increase research credibility/reproducibility and encourage community-wide
 collaboration.
 
-**I am on the job market this year. You can find my latest CV [here](/assets/pdfs/CV.pdf).**
+**I am on the job market this year. You can find my latest CV [here](/assets/pdfs/cv-angl.pdf).**
 
 <!--
 # Vision
