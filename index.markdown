@@ -170,11 +170,9 @@ I am a final-year Ph.D. candidate in the ECE department, Princeton University.
 I am supervised by [Prof. David Wentzlaff](https://www.princeton.edu/~wentzlaf/)
 who leads the [Princeton Parallel Group](http://parallel.princeton.edu/).
 
-I am interested in all aspects of computer architecture, especially
-heterogeneous and reconfigurable architectures for both high-performance and
+I am interested in all aspects of computer architecture and digital VLSI design,
+especially heterogeneous and reconfigurable systems for both high-performance and
 low-power applications.
-I am also interested in the VLSI design methodology and software programming
-model for these architectures.
 I enjoy building chips so as to validate and evaluate my ideas with high
 fidelity.
 I am also an advocator of open-source hardware/research as they
@@ -363,10 +361,10 @@ These experiences
 
 * Teaching Assistant, ECE 462/562 (also COS 462), _Design of Very Large-Scale
   Integrated (VLSI) Systems_, 2022 Fall
-* Mentor, Google Summer of Code, _PRGA + FASM: Open-Source Bitgen for FPGAs_,
-  2020 Summer
 * Teaching Assistant, ECE 475/575 (also COS 475), _Computer Architecture_, 2018
   Fall
+* FOSSi Mentor, [Google Summer of Code](https://www.fossi-foundation.org/2020/05/04/gsoc2020-intro), 2020 Summer
+  - Ansh Puvvada, _Automating hardware and bitstream verification for PRGA with cocotb_
 * Co-Advisory of Undergraduate Research
   - Jaebyoek Yoon, _Architecture and Physical Design of Specialized FPGAs_
   - Marlon Escobar, _CPU-FPGA Integration_
