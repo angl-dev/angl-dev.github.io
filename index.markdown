@@ -56,6 +56,9 @@ feature_duet:
         </li>
     </ul>
 
+    [<i class="far fa-file-pdf"/> PDF (Camera-ready)](/assets/pdfs/HPCA23_Ang_Li.pdf){: .btn .btn--primary }
+    [<i class="fab fa-github"></i> GitHub (WIP)](https://github.com/PrincetonUniversity/Duet){: .btn .btn--primary }
+
 feature_gem5_duet:
   title: <i class="fas fa-meteor"></i> gem5 x Duet
   image_path: https://www.gem5.org/assets/img/gem5logo/Color/noBackground/vertical/gem5ColorVert.png
@@ -269,6 +272,9 @@ These experiences
   </div>
   <div class="pub-info">
     <p class="title">Duet: Creating Harmony between Processors and Embedded FPGAs</p>
+    <p class="links">
+      <a class="link" href="/assets/pdfs/HPCA23_Ang_Li.pdf"><i class="far fa-file-pdf"></i> PDF</a>
+    </p>
     <p class="authors"><b><u>Ang Li</u></b>, August Ning, David Wentzlaff</p>
     <p class="venue">The 29th IEEE International Symposium on High-Performance Computer Architecture (<a href="https://hpca-conf.org/2023/">HPCA-29</a>), Feb-Mar 2023, Montreal, QC, Canada</p>
   </div>
