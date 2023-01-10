@@ -13,6 +13,7 @@ author_profile: false
   <div class="pub-info">
     <p class="title">Duet: Creating Harmony between Processors and Embedded FPGAs</p>
     <p class="links">
+      <a class="link" href="https://arxiv.org/abs/2301.02785">arXiv</a>
       <a class="link" href="/assets/pdfs/HPCA23_Ang_Li.pdf"><i class="far fa-file-pdf"></i> PDF</a>
     </p>
     <p class="authors"><b><u>Ang Li</u></b>, August Ning, David Wentzlaff</p>

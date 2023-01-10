@@ -51,11 +51,9 @@ feature_duet:
         <li><span class="fa-li"><i class="far fa-file"></i></span>
         Paper accepted to HPCA'23!
         </li>
-        <li><span class="fa-li"><i class="far fa-file"></i></span>
-        arXiv preprint coming soon!
-        </li>
     </ul>
 
+    [arXiv](https://arxiv.org/abs/2301.02785){: .btn .btn--primary }
     [<i class="far fa-file-pdf"/> PDF (Camera-ready)](/assets/pdfs/HPCA23_Ang_Li.pdf){: .btn .btn--primary }
     [<i class="fab fa-github"></i> GitHub (WIP)](https://github.com/PrincetonUniversity/Duet){: .btn .btn--primary }
 
@@ -273,6 +271,7 @@ These experiences
   <div class="pub-info">
     <p class="title">Duet: Creating Harmony between Processors and Embedded FPGAs</p>
     <p class="links">
+      <a class="link" href="https://arxiv.org/abs/2301.02785">arXiv</a>
       <a class="link" href="/assets/pdfs/HPCA23_Ang_Li.pdf"><i class="far fa-file-pdf"></i> PDF</a>
     </p>
     <p class="authors"><b><u>Ang Li</u></b>, August Ning, David Wentzlaff</p>
