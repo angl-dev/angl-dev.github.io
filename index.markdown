@@ -55,7 +55,7 @@ feature_duet:
 
     [arXiv](https://arxiv.org/abs/2301.02785){: .btn .btn--primary }
     [<i class="far fa-file-pdf"/> PDF (Camera-ready)](/assets/pdfs/HPCA23_Ang_Li.pdf){: .btn .btn--primary }
-    [<i class="fab fa-github"></i> GitHub (WIP)](https://github.com/PrincetonUniversity/Duet){: .btn .btn--primary }
+    [<i class="fab fa-github"></i> GitHub](https://github.com/PrincetonUniversity/Duet){: .btn .btn--primary }
 
 feature_gem5_duet:
   title: <i class="fas fa-meteor"></i> gem5 x Duet
