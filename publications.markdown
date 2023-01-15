@@ -6,6 +6,26 @@ author_profile: false
 
 <div class="pub">
   <div class="conf">
+    <span>CICC'23</span>
+    <br/><span class="doctype">To Appear</span>
+  </div>
+  <div class="pub-info">
+    <p class="title">CIFER: A 12nm, 16mm<sup>2</sup>, 22-Core SoC with a 1541 LUT6/mm<sup>2</sup>, 1.92 MOPS/LUT, Fully Synthesizable, Cache-Coherent, Embedded FPGA</p>
+    <p class="authors">Ting-Jung Chang, <b><u>Ang Li</u></b> (Equal Contribution), Fei Gao, Tuan Ta, Georgios Tziantzioulis, Yanghui Ou, Moyang Wang, Jinzheng Tu, Kaifeng Xu, Paul J. Jackson, August Ning, Grigory Chirkov, Marcelo Orenes-Vera, Shady Agwa, Xiaoyu Yan, Eric Tang, Jonathan Balkind, Christopher Batten, David Wentzlaff</p>
+    <p class="venue">2023 IEEE Custom Integrated Circuits Conference (<a href="https://www.ieee-cicc.org/">CICC</a>), April 2023, San Antonio, TX, USA</p>
+  </div>
+
+  <div class="conf">
+    <span>CICC'23</span>
+    <br/><span class="doctype">To Appear</span>
+  </div>
+  <div class="pub-info">
+    <p class="title">DECADES: A 67mm<sup>2</sup>, 1.46TOPS, 55 Giga Cache-Coherent 64-bit RISC-V Instructions per second, Heterogeneous Manycore SoC with 109 Tiles including Accelerators, Intelligent Storage, and eFPGA in 12nm FinFET</p>
+    <p class="authors">Fei Gao, Ting-Jung Chang, <b><u>Ang Li</u></b>, Marcelo Orenes-Vera, Davide Giri, Paul Jackson, August Ning, Georgios Tziantzioulis, Joseph Zuckerman, Jinzheng Tu, Kaifeng Xu, Grigory Chirkov, Gabriele Tombesi, Jonathan Balkind, Margaret Martonosi, Luca Carloni, David Wentzlaff</p>
+    <p class="venue">2023 IEEE Custom Integrated Circuits Conference (<a href="https://www.ieee-cicc.org/">CICC</a>), April 2023, San Antonio, TX, USA</p>
+  </div>
+
+  <div class="conf">
     <span>HPCA'23</span>
     <br/><span class="doctype">Conference</span>
     <br/><span class="doctype">To Appear</span>

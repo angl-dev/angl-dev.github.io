@@ -12,6 +12,8 @@ main:
   #   url: /sitemap/
   - title: "About Me"
     url: /#-about-me
+  - title: "Latest News"
+    url: /#-latest-news
   - title: "Projects"
     url: /#-projects
   - title: "Publications"

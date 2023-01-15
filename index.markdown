@@ -6,8 +6,11 @@ analytics: true
 
 sidebar:
   - text: <p class="home-nav"><a href="#-about-me"><i class="fas fa-child-reaching"></i> About Me</a></p>
+  - text: <p class="home-nav"><a href="#-latest-news"><i class="fas fa-newspaper"></i> Latest News</a></p>
   - text: >-
       <p class="home-nav"><a href="#-projects"><i class="fas fa-screwdriver-wrench"></i> Projects</a></p>
+
+  - comments: >-
       <ul class="home-nav fa-ul">
           <li><span class="fa-li"><i class="fas fa-meteor"></i></span><a href="#feature_prga">PRGA</a></li>
           <li><span class="fa-li"><i class="fas fa-meteor"></i></span><a href="#feature_duet">Duet</a></li>
@@ -100,7 +103,7 @@ feature_cifer:
         Prototype chip fabricated and tested
         </li>
         <li><span class="fa-li"><i class="far fa-file"></i></span>
-        Paper under review
+        Paper accepted to CICC'23!
         </li>
     </ul>
 
@@ -135,7 +138,7 @@ feature_decades:
         Prototype chip fabricated and tested
         </li>
         <li><span class="fa-li"><i class="far fa-file"></i></span>
-        Paper under review
+        Paper accepted to CICC'23!
         </li>
     </ul>
 
@@ -250,6 +253,11 @@ As such, I spent my Ph.D. gaining insights across multiple disciplines, includin
 These experiences 
 -->
 
+# <i class="fas fa-newspaper"></i> Latest News
+
+* 01/13/23 Our paper on CIFER is accepted to CICC 2023!
+* 01/13/23 Our paper on DECADES is accepted to CICC 2023!
+
 # <i class="fas fa-screwdriver-wrench"></i> Projects
 
 {% include feature_section id="feature_prga" %}
@@ -264,6 +272,26 @@ These experiences
 ## Conference Publications
 
 <div class="pub">
+  <div class="conf">
+    <span>CICC'23</span>
+    <br/><span class="doctype">To Appear</span>
+  </div>
+  <div class="pub-info">
+    <p class="title">CIFER: A 12nm, 16mm<sup>2</sup>, 22-Core SoC with a 1541 LUT6/mm<sup>2</sup>, 1.92 MOPS/LUT, Fully Synthesizable, Cache-Coherent, Embedded FPGA</p>
+    <p class="authors">Ting-Jung Chang, <b><u>Ang Li</u></b> (Equal Contribution), Fei Gao, Tuan Ta, Georgios Tziantzioulis, Yanghui Ou, Moyang Wang, Jinzheng Tu, Kaifeng Xu, Paul J. Jackson, August Ning, Grigory Chirkov, Marcelo Orenes-Vera, Shady Agwa, Xiaoyu Yan, Eric Tang, Jonathan Balkind, Christopher Batten, David Wentzlaff</p>
+    <p class="venue">2023 IEEE Custom Integrated Circuits Conference (<a href="https://www.ieee-cicc.org/">CICC</a>), April 2023, San Antonio, TX, USA</p>
+  </div>
+
+  <div class="conf">
+    <span>CICC'23</span>
+    <br/><span class="doctype">To Appear</span>
+  </div>
+  <div class="pub-info">
+    <p class="title">DECADES: A 67mm<sup>2</sup>, 1.46TOPS, 55 Giga Cache-Coherent 64-bit RISC-V Instructions per second, Heterogeneous Manycore SoC with 109 Tiles including Accelerators, Intelligent Storage, and eFPGA in 12nm FinFET</p>
+    <p class="authors">Fei Gao, Ting-Jung Chang, <b><u>Ang Li</u></b>, Marcelo Orenes-Vera, Davide Giri, Paul Jackson, August Ning, Georgios Tziantzioulis, Joseph Zuckerman, Jinzheng Tu, Kaifeng Xu, Grigory Chirkov, Gabriele Tombesi, Jonathan Balkind, Margaret Martonosi, Luca Carloni, David Wentzlaff</p>
+    <p class="venue">2023 IEEE Custom Integrated Circuits Conference (<a href="https://www.ieee-cicc.org/">CICC</a>), April 2023, San Antonio, TX, USA</p>
+  </div>
+
   <div class="conf">
     <span>HPCA'23</span>
     <br/><span class="doctype">To Appear</span>
