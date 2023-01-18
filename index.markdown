@@ -54,10 +54,16 @@ feature_duet:
         <li><span class="fa-li"><i class="far fa-file"></i></span>
         Paper accepted to HPCA'23!
         </li>
+        <li><span class="fa-li"><i class="fas fa-newspaper"></i></span>
+        Media coverage by <a
+        href="https://semiengineering.com/manycore-fpga-architecture-employing-novel-duet-adapters-to-integrate-efpgas-in-a-scalable-non-intrusive-cache-coherent-manner-princeton/">
+        <i>Semiconductor Engineering</i>
+        </a>!
+        </li>
     </ul>
 
     [arXiv](https://arxiv.org/abs/2301.02785){: .btn .btn--primary }
-    [<i class="far fa-file-pdf"/> PDF (Camera-ready)](/assets/pdfs/HPCA23_Ang_Li.pdf){: .btn .btn--primary }
+    [<i class="far fa-file-pdf"/> PDF](/assets/pdfs/HPCA23_Ang_Li.pdf){: .btn .btn--primary }
     [<i class="fab fa-github"></i> GitHub](https://github.com/PrincetonUniversity/Duet){: .btn .btn--primary }
 
 feature_gem5_duet:
@@ -255,8 +261,10 @@ These experiences
 
 # <i class="fas fa-newspaper"></i> Latest News
 
-* 01/13/23 Our paper on CIFER is accepted to CICC 2023!
-* 01/13/23 Our paper on DECADES is accepted to CICC 2023!
+* 01/16/23 Media coverage of [Duet](#feature_duet) by [Semiconductor
+  Engineering](https://semiengineering.com/manycore-fpga-architecture-employing-novel-duet-adapters-to-integrate-efpgas-in-a-scalable-non-intrusive-cache-coherent-manner-princeton/)!
+* 01/13/23 Our paper on [CIFER](#feature_cifer) is accepted to CICC 2023!
+* 01/13/23 Our paper on [DECADES](#feature_decades) is accepted to CICC 2023!
 
 # <i class="fas fa-screwdriver-wrench"></i> Projects
 
