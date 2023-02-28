@@ -6,7 +6,19 @@ author_profile: false
 
 <div class="pub">
   <div class="conf">
+    <span>ISPASS'23</span>
+    <br/><span class="doctype">Conference</span>
+    <br/><span class="doctype">To Appear</span>
+  </div>
+  <div class="pub-info">
+    <p class="title">Redwood: Flexible and Portable Heterogeneous Tree Traversal Workloads</p>
+    <p class="authors">Yanwen Xu, <b><u>Ang Li</u></b>, Tyler Sorensen</p>
+    <p class="venue">2023 IEEE International Symposium on Performance Analysis of Systems and Software (<a href="https://ispass.org/ispass2023/">ISPASS</a>), April 2023, Raleigh, NC, USA</p>
+  </div>
+
+  <div class="conf">
     <span>CICC'23</span>
+    <br/><span class="doctype">Conference</span>
     <br/><span class="doctype">To Appear</span>
   </div>
   <div class="pub-info">
@@ -17,6 +29,7 @@ author_profile: false
 
   <div class="conf">
     <span>CICC'23</span>
+    <br/><span class="doctype">Conference</span>
     <br/><span class="doctype">To Appear</span>
   </div>
   <div class="pub-info">
@@ -28,7 +41,6 @@ author_profile: false
   <div class="conf">
     <span>HPCA'23</span>
     <br/><span class="doctype">Conference</span>
-    <br/><span class="doctype">To Appear</span>
   </div>
   <div class="pub-info">
     <p class="title">Duet: Creating Harmony between Processors and Embedded FPGAs</p>
@@ -37,7 +49,7 @@ author_profile: false
       <a class="link" href="/assets/pdfs/HPCA23_Ang_Li.pdf"><i class="far fa-file-pdf"></i> PDF</a>
     </p>
     <p class="authors"><b><u>Ang Li</u></b>, August Ning, David Wentzlaff</p>
-    <p class="venue">The 29th IEEE International Symposium on High-Performance Computer Architecture (<a href="https://hpca-conf.org/2023/">HPCA-29</a>), Feb-Mar 2023, Montreal, QC, Canada</p>
+    <p class="venue">The 29th IEEE International Symposium on High-Performance Computer Architecture (<a href="https://hpca-conf.org/2023/">HPCA</a>), Feb-Mar 2023, Montreal, QC, Canada</p>
   </div>
 
   <div class="conf">
@@ -52,7 +64,7 @@ author_profile: false
       <a class="link" href="https://dl.acm.org/doi/10.1145/3431920.3439294#"><i class="far fa-file-video"></i> Recorded Presentation</a>
     </p>
     <p class="authors"><b><u>Ang Li</u></b>, David Wentzlaff</p>
-    <p class="venue">The 29th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (<a href="https://www.isfpga.org/past/fpga2021/">FPGA-29</a>), Feb-Mar 2021, Virtual</p>
+    <p class="venue">The 29th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (<a href="https://www.isfpga.org/past/fpga2021/">FPGA</a>), Feb-Mar 2021, Virtual</p>
   </div>
 
   <div class="conf">
@@ -66,7 +78,7 @@ author_profile: false
       <a class="link" href="http://parallel.princeton.edu/papers/FPL20-Li.pdf"><i class="far fa-file-pdf"></i> PDF</a>
     </p>
     <p class="authors"><b><u>Ang Li</u></b>, Ting-Jung Chang, David Wentzlaff</p>
-    <p class="venue">The 30th International Conference on Field-Programmable Logic and Applications (<a href="https://www.fpl2020.org/">FPL-30</a>), Aug-Sep 2020, Virtual</p>
+    <p class="venue">The 30th International Conference on Field-Programmable Logic and Applications (<a href="https://www.fpl2020.org/">FPL</a>), Aug-Sep 2020, Virtual</p>
   </div>
 
   <div class="conf">
@@ -94,7 +106,7 @@ author_profile: false
       <a class="link" href="http://parallel.princeton.edu/papers/aspl20-balkind.pdf"><i class="far fa-file-pdf"></i> PDF</a>
     </p>
     <p class="authors">Jonathan Balkind, Katie Lim, Michael Schaffner, Fei Gao, Grigory Chirkov, <b><u>Ang Li</u></b>, Alexey Lavrov, Tri M. Nguyen, Yaosheng Fu, Florian Zaruba, Kunal Gulati, Luca Benini, David Wentzlaff</p>
-    <p class="venue">The 25th International Conference on Architectural Support for Programming Languages and Operating Systems (<a href="https://asplos-conference.org/2020/">ASPLOS-25</a>), Mar 2020, Lausanne, Switzerland</p>
+    <p class="venue">The 25th International Conference on Architectural Support for Programming Languages and Operating Systems (<a href="https://asplos-conference.org/2020/">ASPLOS</a>), Mar 2020, Lausanne, Switzerland</p>
   </div>
 
   <div class="conf">
@@ -109,7 +121,7 @@ author_profile: false
       <a class="link" href="/assets/pdfs/fpga20_poster.pdf"><i class="far fa-file-pdf"></i> Poster</a>
     </p>
     <p class="authors"><b><u>Ang Li</u></b>, David Wentzlaff</p>
-    <p class="venue">The 28th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (<a href="https://www.isfpga.org/past/fpga2020/">FPGA-28</a>), Feb 2020, Seaside CA, USA</p>
+    <p class="venue">The 28th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (<a href="https://www.isfpga.org/past/fpga2020/">FPGA</a>), Feb 2020, Seaside CA, USA</p>
   </div>
 
   <div class="conf">
@@ -161,7 +173,7 @@ author_profile: false
       <a class="link" href="https://doi.org/10.1109/ASPDAC.2015.7058999"><i class="ai ai-doi"></i> DOI</a>
     </p>
     <p class="authors">Shuangchen Li, <b><u>Ang Li</u></b>, Yongpan Liu, Yuan Xie, Huazhong Yang</p>
-    <p class="venue">The 20th Asia and South Pacific Design Automation Conference (<a href="https://www.aspdac.com/aspdac2015/">ASPDAC-20</a>), Jan 2015, Chiba/Tokyo, Japan</p>
+    <p class="venue">The 20th Asia and South Pacific Design Automation Conference (<a href="https://www.aspdac.com/aspdac2015/">ASPDAC</a>), Jan 2015, Chiba/Tokyo, Japan</p>
   </div>
 
 </div>
