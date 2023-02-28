@@ -45,6 +45,7 @@ feature_duet:
   title: <i class="fas fa-meteor"></i> Duet - Harmonious CPU-FPGA Integration
   image_path: /assets/images/arch_duet.png
   image_position: right
+  narrow_body: yes
   excerpt: >-
     A novel approach to integrate manycores and multiple eFPGA fabrics to
     exploit fine-grained acceleration opportunities in the broad application

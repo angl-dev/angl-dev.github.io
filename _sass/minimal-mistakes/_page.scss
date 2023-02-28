@@ -201,6 +201,8 @@ body {
     div.conf {
       text-align: right;
       vertical-align: top;
+      padding-bottom: 1em;
+      margin-top: 0.3em;
 
       span {
         display: inline-block;
@@ -221,6 +223,8 @@ body {
 
     div.pub-info {
       border-bottom: 1px solid $border-color;
+      padding-bottom: 0.8em;
+
       &:last-child {
         border-bottom: none;
       }
@@ -230,7 +234,8 @@ body {
       }
 
       p.title {
-        font-weight: bold;
+        // font-weight: bold;
+        font-size: $type-size-4;
       }
 
       p.links {
@@ -243,6 +248,12 @@ body {
 
       p.venue {
         font-size: $type-size-6;
+        color: $light-gray;
+      }
+
+      p.authors {
+        font-size: $type-size-5;
+        color: $light-gray;
       }
     }
   }

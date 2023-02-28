@@ -19,7 +19,7 @@
       </div>
     {% endif %}
 
-    <div class="feature__body">
+    <div class="feature__body {% if section.narrow_body %}feature__body__narrow{% endif %}">
       {% if section.title %}
         <div class="feature__header">
             <h2>{{ section.title }}</h2>
