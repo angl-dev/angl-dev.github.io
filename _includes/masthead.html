@@ -30,12 +30,12 @@
           <i class="fas fa-search"></i>
         </button>
         {% endif %}
-        <button type="button">
-            <i class="fas fa-sun" onclick="theme_btn_click()" id="theme_switch"></i>
-        </button>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
+        </button>
+        <button class="greedy-nav__theme-switch" type="button">
+            <i class="fas fa-sun" onclick="theme_btn_click()" id="theme_switch"></i>
         </button>
         <ul class="hidden-links hidden"></ul>
       </nav>
