@@ -14,10 +14,53 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/dark.css' | relative_url }}" id="theme_stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif">
+
+<script>
+    function theme_switch_to (theme) {
+        console.log ('Theme switched to', theme);
+
+        if (theme === 'dark') {
+            document.getElementById('theme_stylesheet').setAttribute('href', '{{ '/assets/css/dark.css' | relative_url }}');
+            document.getElementById('theme_switch').setAttribute('class', 'fas fa-sun');
+            sessionStorage.setItem('theme', 'dark');
+        } else {
+            document.getElementById('theme_stylesheet').setAttribute('href', '{{ '/assets/css/air.css' | relative_url }}');
+            document.getElementById('theme_switch').setAttribute('class', 'fas fa-moon');
+            sessionStorage.setItem('theme', 'air');
+        }
+
+        return false;
+    }
+
+    function theme_btn_click () {
+        let theme = sessionStorage.getItem('theme');
+
+        if (theme === 'dark') {
+            theme_switch_to ('air');
+        } else {
+            theme_switch_to ('dark');
+        }
+
+        return false;
+    }
+
+    window.onload = function () {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            sessionStorage.setItem('theme', 'dark');
+        } else {
+            sessionStorage.setItem('theme', 'air');
+        }
+
+        let theme = sessionStorage.getItem('theme');
+        console.log ('init', theme);
+        theme_switch_to (theme);
+    }
+
+</script>
 
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}

@@ -248,12 +248,12 @@ body {
 
       p.venue {
         font-size: $type-size-6;
-        color: $light-gray;
+        color: mix($background-color, $text-color, 30%);
       }
 
       p.authors {
         font-size: $type-size-5;
-        color: $light-gray;
+        color: mix($background-color, $text-color, 30%);
       }
     }
   }
