@@ -63,8 +63,7 @@
   }
 
   .home-nav {
-      margin: 0.2em;
-      // margin: 0.5em;
+      margin: 0.2em 0em 0.2em 0em;
       text-align: left;
       font-size: $type-size-5;
       
@@ -181,6 +180,8 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 0.5em;
 
   @include breakpoint($large) {
     display: block;
@@ -232,6 +233,8 @@
   cursor: pointer;
   margin-left: 0.2em;
   margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid $border-color;
 
   li {
     margin-bottom: 0;

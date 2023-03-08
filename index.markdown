@@ -55,8 +55,10 @@ feature_duet:
         <li><span class="fa-li"><i class="fas fa-newspaper"></i></span>
         Media coverage by <a
         href="https://semiengineering.com/manycore-fpga-architecture-employing-novel-duet-adapters-to-integrate-efpgas-in-a-scalable-non-intrusive-cache-coherent-manner-princeton/">
-        <i>Semiconductor Engineering</i>
-        </a>!
+        Semiconductor Engineering
+        </a> and <a
+        href="https://news.accelerationrobotics.com/hardware-acceleration-in-robotics-43/#duet-creating-harmony-between-processors-and-embedded-fpgas">Acceleration
+        Robotics</a>!
         </li>
     </ul>
 
@@ -192,74 +194,6 @@ collaboration.
 
 **I am on the academic job market this year. You can find my latest CV [here](/assets/pdfs/cv-angl.pdf).**
 
-<!--
-# Vision
-
-The stagnation of transistor scaling has motivated vertical integration
-across the conventional layers of abstraction in computer systems.
-Software-hardware co-design has shown promising performance and energy
-efficiency gains in emerging domains such as artificial intelligence,
-edge/IoT, robotics, etc.
-However, such hardware specialization faces two key challenges: the
-immense cost/complexity in VLSI design, and the long time-to-market in
-chip manufacturing.
-I believe that the key to these challenges is _flexibility_.
-
-Addressing the first challenge, we must revolutionize the
-hardware design methodology to achieve _design-time flexibility_.
-In particular, design generators with integrated verification and modeling
-can greatly speed up design space exploration and tolerate software
-uncertainty during software-hardware co-design;
-high-level synthesis enables trade-offs between human effort and
-quality-of-result, ideally making hardware design accessible to software
-developers;
-a composable, open-source hardware ecosystem facilitates
-collaboration, sharing, and design reuse.
-
-Addressing the second challenge, we must provision against 
-software/algorithm changes after system deployment, i.e.
-achieving _post-fabrication flexibility_.
-Reconfigurable architectures are an ideal candidate, yet fine-grained
-reconfigurable architectures such as FPGA suffer from low energy/transistor
-efficiency, while coarse-grained reconfigurable architectures (CGRA) are
-in an early but rapid-growing stage.
-The huge design space of reconfigurable architectures is yet to be explored, and
-the software support (e.g. compiler) for these novel architectures is also in
-urgent need for research.
--->
-
-<!--
-During my Ph.D., I had the opportunity to work on multiple projects
-spanning across the abstraction layers with a focus at the architecture level.
-
-- I developed [PRGA](https://parallel.princeton.edu/prga/), an open-source FPGA
-  prototyping and research platform which generates a synthesizable FPGA _(the
-  reconfigurable fabric itself, not LUT-emulated designs)_ and an
-  RTL-to-bitstream CAD tool chain according to user specifications.
-- I led three chip tapeouts, specifically two OS-capable manycore-eFPGA SoCs in
-  12nm FinFET, and one microcontroller-eFPGA SoC in 130nm CMOS, each of which
-  integrates a unique, PRGA-generated FPGA.
-- My latest project, Duet _(currently under review and will be open-sourced after
-  paper acceptance)_, explores novel programming paradigms on CPU-FPGA hybrid
-  systems and the required architectural supports.
-  -->
-
-<!--
-I believe that a thorough understanding of the interplay between VLSI,
-architecture, programming model, and applications is the key to advancing the
-computing industry.
-As such, I spent my Ph.D. gaining insights across multiple disciplines, including:
-
-- Developing and contributing to multiple silicon-proven, open-source hardware
-  research platforms such as [PRGA](https://parallel.princeton.edu/prga/)
-  and [OpenPiton](http://parallel.princeton.edu/openpiton/).
-- Leading multiple chip tapeouts and bringups, including two OS-capable,
-  manycore-eFPGA SoCs at 12nm and one microcontroller-eFPGA SoC at 130nm.
-- Studying heterogeneous integration and its programming model.
-
-These experiences 
--->
-
 # <i class="fas fa-newspaper"></i> Latest News
 
 * 02/28/23 [August](https://augustning.com/) presented [Duet](#feature_duet) at
@@ -269,7 +203,9 @@ These experiences
   ISPASS 2023! Congrats, [Yanwen](https://xuyanwen2012.github.io/) and
   [Tyler](https://users.soe.ucsc.edu/~tsorensen/)!
 * 01/16/23 Media coverage of [Duet](#feature_duet) by [Semiconductor
-  Engineering](https://semiengineering.com/manycore-fpga-architecture-employing-novel-duet-adapters-to-integrate-efpgas-in-a-scalable-non-intrusive-cache-coherent-manner-princeton/)!
+  Engineering](https://semiengineering.com/manycore-fpga-architecture-employing-novel-duet-adapters-to-integrate-efpgas-in-a-scalable-non-intrusive-cache-coherent-manner-princeton/)
+  and [Acceleration
+  Robotics](https://news.accelerationrobotics.com/hardware-acceleration-in-robotics-43/#duet-creating-harmony-between-processors-and-embedded-fpgas)!
 * 01/13/23 Our paper on [CIFER](#feature_cifer) is accepted to CICC 2023!
 * 01/13/23 Our paper on [DECADES](#feature_decades) is accepted to CICC 2023!
 
