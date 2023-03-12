@@ -188,37 +188,63 @@ body {
 
   /* Publication records */
   div.pub {
+
     width: 100%;
-    display: grid;
-    grid-template: auto / 8em minmax(0, 1fr);
-    grid-gap: 0.4em;
     margin-top: 0.4em;
     margin-bottom: 0.4em;
+
+    display: grid;
+    grid-template: auto / auto;
+
+    @include breakpoint($small) {
+      grid-template: auto / 6em minmax(0, 1fr);
+      grid-gap: 0.4em;
+    }
 
     p {
       margin: 0em;
     }
 
     div.conf {
-      text-align: right;
-      vertical-align: top;
-      padding-bottom: 1em;
-      margin-top: 0.3em;
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: -moz-box;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-items: baseline;
+      align-content: flex-start;
+      gap: 0.1em;
+      margin-top: 0.5em;
+      margin-bottom: 0.2em;
+
+      @include breakpoint($small) {
+        flex-flow: column nowrap;
+        align-items: flex-end;
+      }
 
       span {
         display: inline-block;
-        text-align: right;
         background: $text-color;
         color: $background-color;
+        font-size: $type-size-6;
         font-weight: bold;
+        text-align: center;
         border-radius: 0.2em;
-        padding: 0 0.2em 0 0.2em;
-        margin-bottom: 0.1em;
+        padding: 0.1em 0.3em 0.1em 0.3em;
+
+        @include breakpoint($small) {
+          width: auto;
+          text-align: right;
+        }
       }
 
-      span.doctype {
-        font-size: $type-size-6;
-        // background: $info-color;
+      span:not(.doctype) {
+        @include breakpoint($small) {
+          font-size: $type-size-5;
+        }
       }
     }
 

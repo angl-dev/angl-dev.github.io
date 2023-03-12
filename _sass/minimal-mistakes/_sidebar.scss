@@ -63,9 +63,16 @@
   }
 
   .home-nav {
+      display: none;
+      visibility: hidden;
       margin: 0.2em 0em 0.2em 0em;
       text-align: left;
       font-size: $type-size-5;
+
+      @include breakpoint($large) {
+        display: block;
+        visibility: visible;
+      }
       
       a {
         text-decoration: none;
@@ -76,16 +83,6 @@
           width: 1.5em;
           text-align: center;
         }
-      }
-  }
-
-  ul.home-nav {
-      padding-left: 1.8em;
-
-      li {
-        padding: 0;
-        margin-bottom: 0em;
-        margin-right: 0.2em;
       }
   }
 
@@ -180,14 +177,15 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
-  border-bottom: 1px solid $border-color;
   margin-bottom: 0.5em;
+  border-bottom: 0px;
 
   @include breakpoint($large) {
     display: block;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    border-bottom: 1px solid $border-color;
   }
 
   a {
@@ -222,6 +220,13 @@
   a {
       color: $link-color;
   }
+
+  p {
+    margin-bottom: 0em;
+    @include breakpoint($large) {
+      margin-bottom: 1.3em;
+    }
+  }
 }
 
 .author__urls-wrapper {
@@ -234,7 +239,7 @@
   margin-left: 0.2em;
   margin-bottom: 1em;
   padding-bottom: 1em;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 0px;
 
   li {
     margin-bottom: 0;
@@ -259,6 +264,7 @@
 
   @include breakpoint($large) {
     display: block;
+    border-bottom: 1px solid $border-color;
   }
 
   button {

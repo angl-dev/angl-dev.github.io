@@ -17,7 +17,7 @@ main:
   - title: "Projects"
     url: /#-projects
   - title: "Publications"
-    url: /#-referred-publications-full-list
+    url: /publications
   - title: "Teaching"
     url: /#-teaching
   - title: "CV"

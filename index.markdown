@@ -20,7 +20,7 @@ sidebar:
           <li><span class="fa-li"><i class="fas fa-meteor"></i></span><a href="#feature_order">ORDER</a></li>
       </ul>
 
-  - text: <p class="home-nav"><a href="#-referred-publications-full-list"><i class="fas fa-box-archive"></i> Publications</a></p>
+  - text: <p class="home-nav"><a href="#-referred-publications--full-list"><i class="fas fa-box-archive"></i> Referred Publications</a></p>
   - text: <p class="home-nav"><a href="#-teaching"><i class="fas fa-person-chalkboard"></i> Teaching</a></p>
 
 unused:
