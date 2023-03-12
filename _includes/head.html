@@ -60,6 +60,11 @@
         theme_switch_to (theme);
     }
 
+    function toggle_bibtex (elem) {
+        let element = document.getElementById(elem);
+        element.classList.toggle('hidden');
+    }
+
 </script>
 
 {% if site.head_scripts %}

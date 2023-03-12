@@ -188,8 +188,9 @@ body {
 
   /* Publication records */
   div.pub {
+    width: 100%;
     display: grid;
-    grid-template: auto / 6em auto;
+    grid-template: auto / 6em minmax(0, 1fr);
     grid-gap: 0.4em;
     margin-top: 0.4em;
     margin-bottom: 0.4em;
@@ -239,10 +240,10 @@ body {
       }
 
       p.links {
-        a.link {
+        .link {
           @extend .btn;
           @extend .btn--primary;
-          @extend .btn--small;
+          // @extend .btn--small;
         }
       }
 

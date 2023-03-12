@@ -1,0 +1,285 @@
+pubs: !!omap
+  asplos15:
+    venue:
+      abbrv: ASPLOS'15
+      type: Conference
+      full: >-
+        The 20th Asia and South Pacific Design Automation Conference ([ASPDAC](https://www.aspdac.com/aspdac2015/)), Jan 2015, Chiba/Tokyo, Japan
+    title: Nonvolatile Memory Allocation and Hierarchy Optimization for High-Level Synthesis
+    authors: Shuangchen Li, Ang Li, Yongpan Liu, Yuan Xie, Huazhong Yang
+    links: !!omap
+      doi: "https://doi.org/10.1109/ASPDAC.2015.7058999"
+      bibtex: |-
+        ```
+        @INPROCEEDINGS{7058999,
+        author={Li, Shuangchen and Ang Li and Liu, Yongpan and Xie, Yuan and Huazhong Yang},
+        booktitle={The 20th Asia and South Pacific Design Automation Conference}, 
+        title={{Nonvolatile Memory Allocation and Hierarchy Optimization for High-Level Synthesis}}, 
+        year={2015},
+        volume={},
+        number={},
+        pages={166-171},
+        doi={10.1109/ASPDAC.2015.7058999}}
+        ```
+  
+  islped15:
+    venue:
+      type: Conference
+      abbrv: ISLPED'15
+      full: >-
+        2015 IEEE/ACM International Symposium on Low Power Electronics and Design ([ISPLED](http://islped.org/2015/)), July 2015, Rome, Italy
+    title: Leveraging Emerging Nonvolatile Memory in High-Level Synthesis with Loop Transformations
+    authors: Shuangchen Li, Ang Li, Yuan Zhe, Yongpan Liu, Peng Li, Guangyu Sun, Yu Wang, Huazhong Yang, Yuan Xie
+    links: !!omap
+      doi: "https://doi.org/10.1109/ASPDAC.2015.7058999"
+      bibtex: |-
+        ```
+        @INPROCEEDINGS{7058999,
+        author={Li, Shuangchen and Ang Li and Liu, Yongpan and Xie, Yuan and Huazhong Yang},
+        booktitle={The 20th Asia and South Pacific Design Automation Conference}, 
+        title={{Nonvolatile Memory Allocation and Hierarchy Optimization for High-Level Synthesis}}, 
+        year={2015},
+        volume={},
+        number={},
+        pages={166-171},
+        doi={10.1109/ASPDAC.2015.7058999}}
+        ```
+  
+  islped15:
+    venue:
+      type: Conference
+      abbrv: ISLPED'15
+      full: >-
+        2015 IEEE/ACM International Symposium on Low Power Electronics and Design ([ISPLED](http://islped.org/2015/)), July 2015, Rome, Italy
+    title: Leveraging Emerging Nonvolatile Memory in High-Level Synthesis with Loop Transformations
+    authors: Shuangchen Li, Ang Li, Yuan Zhe, Yongpan Liu, Peng Li, Guangyu Sun, Yu Wang, Huazhong Yang, Yuan Xie
+    links: !!omap
+      doi: "https://doi.org/10.1109/ISLPED.2015.7273491"
+      bibtex: |-
+        ```
+        @INPROCEEDINGS{7273491,
+        author={Li, Shuangchen and Li, Ang and Zhe, Yuan and Liu, Yongpan and Li, Peng and Sun, Guangyu and Wang, Yu and Yang, Huazhong and Yuan Xie},
+        booktitle={2015 IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED)},
+        title={{Leveraging Emerging Nonvolatile Memory in High-Level Synthesis with Loop Transformations}},
+        year={2015},
+        volume={},
+        number={},
+        pages={61-66},
+        doi={10.1109/ISLPED.2015.7273491}}
+        ```
+  
+  woset18:
+    venue:
+      type: Workshop
+      abbrv: WOSET'18
+      full: >-
+        The 1st Workshop on Open-Source EDA Technology ([WOSET](https://woset-workshop.github.io/WOSET2018.html)), Nov 2018, San Diego CA, USA
+    title: "OpenPiton: An Emerging Standard for Open-Source EDA Tool Development"
+    authors: Jonathan Balkind, Alexey Lavrov, Michael McKeown, Yaosheng Fu, Tri Nguyen, Mohammad Shahrad, Ang Li, Katie Lim, Yanqi Zhou, Ting-Jung Chang, Paul Jackson, Adi Fuchs, Samuel Payne, Xiaohua Liang, Matthew Matl, David Wentzlaff
+    links: !!omap
+      pdf: "http://parallel.princeton.edu/papers/woset18-openpiton.pdf"
+  
+  osda19:
+    venue:
+      type: Workshop
+      abbrv: OSDA'19
+      full: >-
+        The 1st Workshop on Open Source Design Automation ([OSDA](https://osda.gitlab.io/)), Mar 2019, Florence, Italy
+    title: "PRGA: An Open-source Framework for Building and Using Custom FPGAs"
+    authors: Ang Li, David Wentzlaff
+    links: !!omap
+      pdf: "/assets/pdfs/osda19.pdf"
+  
+  fpga20:
+    venue:
+      type: Poster
+      abbrv: FPGA'20
+      full: >-
+        The 28th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays ([FPGA](https://www.isfpga.org/past/fpga2020/)), Feb 2020, Seaside CA, USA
+    title: Cycle-Free FPGA Routing Graphs
+    authors: Ang Li, David Wentzlaff
+    links: !!omap
+      doi: "https://doi.org/10.1145/3373087.3375354"
+      bibtex: |-
+        ```
+        @inproceedings{10.1145/3373087.3375354,
+        author = {Li, Ang and Wentzlaff, David},
+        title = {{Cycle-Free FPGA Routing Graphs}},
+        year = {2020},
+        isbn = {9781450370998},
+        publisher = {Association for Computing Machinery},
+        address = {New York, NY, USA},
+        url = {https://doi.org/10.1145/3373087.3375354},
+        doi = {10.1145/3373087.3375354},
+        abstract = {Accurate timing characterization of FPGA routing resources, i.e. wires and switches, is critical to achieving high quality of results from FPGA routing tools. Although the composition and connectivity of the routing resources are easily extracted from an FPGA's architecture, post-layout timing characterization of the FPGA's wires and switches (NOT the design being mapped onto the FPGA) with EDA tools is a challenging task due to the large quantity of combinational loops (cycles in the routing graph). Likewise, the use of EDA tools is severely limited when constructing new FPGA architectures. This work addresses the challenge by proposing an algorithm to construct cycle-free FPGA routing graphs. A cycle-free FPGA routing graph is achieved by logically ordering wires and intelligently removing or rearranging a small fraction of the switch block connections in order to break cycles. The proposed approach enables constraining the timing of all routing resources, which is otherwise impossible due to the combinational loops. This technique can be applied to post-layout static timing analysis (STA) of existing FPGAs, significantly reducing the complexity and improving the accuracy of the analysis. In addition, this cycle-free approach can be adopted when designing new FPGAs, transforming costly hand layout into an automated step compatible with commercial ASIC EDA tools.},
+        booktitle = {Proceedings of the 2020 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays},
+        pages = {322},
+        numpages = {1},
+        keywords = {fpga, fpga routing graph, fpga timing characterization},
+        location = {Seaside, CA, USA},
+        series = {FPGA '20}
+        }
+        ```
+      pdf: "/assets/pdfs/fpga20.pdf"
+      poster: "/assets/pdfs/fpga20_poster.pdf"
+  
+  asplos20:
+    venue:
+      type: Conference
+      abbrv: ASPLOS'20
+      full: >-
+        The 25th International Conference on Architectural Support for Programming Languages and Operating Systems ([ASPLOS](https://asplos-conference.org/2020/)), Mar 2020, Lausanne, Switzerland
+    title: >-
+      BYOC: A "Bring Your Own Core" Framework for Heterogeneous-ISA Research
+    authors: Jonathan Balkind, Katie Lim, Michael Schaffner, Fei Gao, Grigory Chirkov, Ang Li, Alexey Lavrov, Tri M. Nguyen, Yaosheng Fu, Florian Zaruba, Kunal Gulati, Luca Benini, David Wentzlaff
+    links: !!omap
+      doi: "https://doi.org/10.1145/3373376.3378479"
+      bibtex: |-
+        ```
+        @inproceedings{10.1145/3373376.3378479,
+        author = {Balkind, Jonathan and Lim, Katie and Schaffner, Michael and Gao, Fei and Chirkov, Grigory and Li, Ang and Lavrov, Alexey and Nguyen, Tri M. and Fu, Yaosheng and Zaruba, Florian and Gulati, Kunal and Benini, Luca and Wentzlaff, David},
+        title = {{BYOC: A "Bring Your Own Core" Framework for Heterogeneous-ISA Research}},
+        year = {2020},
+        isbn = {9781450371025},
+        publisher = {Association for Computing Machinery},
+        address = {New York, NY, USA},
+        url = {https://doi.org/10.1145/3373376.3378479},
+        doi = {10.1145/3373376.3378479},
+        abstract = {Heterogeneous architectures and heterogeneous-ISA designs are growing areas of computer architecture and system software research. Unfortunately, this line of research is significantly hindered by the lack of experimental systems and modifiable hardware frameworks. This work proposes BYOC, a "Bring Your Own Core" framework that is specifically designed to enable heterogeneous-ISA and heterogeneous system research. BYOC is an open-source hardware framework that provides a scalable cache coherence system, that includes out-of-the-box support for four different ISAs (RISC-V 32-bit, RISC-V 64-bit, x86, and SPARCv9) and has been connected to ten different cores. The framework also supports multiple loosely coupled accelerators and is a fully working system supporting SMP Linux. The Transaction-Response Interface (TRI) introduced with BYOC has been specifically designed to make it easy to add in new cores with new ISAs and memory interfaces. This work demonstrates multiple multi-ISA designs running on FPGA and characterises the communication costs. This work describes many of the architectural design trade-offs for building such a flexible system. BYOC is well suited to be the premiere platform for heterogeneous-ISA architecture, system software, and compiler research.},
+        booktitle = {Proceedings of the Twenty-Fifth International Conference on Architectural Support for Programming Languages and Operating Systems},
+        pages = {699–714},
+        numpages = {16},
+        keywords = {research platform, x86, manycore, open source, sparc, heterogeneous-isa, risc-v, architecture},
+        location = {Lausanne, Switzerland},
+        series = {ASPLOS '20}
+        }
+        ```
+      pdf: "http://parallel.princeton.edu/papers/aspl20-balkind.pdf"
+
+  opat5:
+    venue:
+      type: Journal
+      abbrv: IEEE Micro
+      full: IEEE Micro Vol. 40, No. 1, Jul-Aug 2020
+    title: "OpenPiton at 5: A Nexus for Open and Agile Hardware Design"
+    authors: Jonathan Balkind, Ting-Jung Chang, Paul J. Jackson, Georgios Tziantzioulis, Ang Li, Fei Gao, Alexey Lavrov, Grigory Chirkov, Jinzheng Tu, Mohammad Shahrad, David Wentzlaff
+    links: !!omap
+      doi: "https://doi.org/10.1109/MM.2020.2997706"
+      bibtex: |-
+        ```
+        @ARTICLE{9099948,
+        author={Balkind, Jonathan and Chang, Ting-Jung and Jackson, Paul J. and Tziantzioulis, Georgios and Li, Ang and Gao, Fei and Lavrov, Alexey and Chirkov, Grigory and Tu, Jinzheng and Shahrad, Mohammad and Wentzlaff, David},
+        journal={IEEE Micro},
+        title={{OpenPiton at 5: A Nexus for Open and Agile Hardware Design}},
+        year={2020},
+        volume={40},
+        number={4},
+        pages={22-31},
+        doi={10.1109/MM.2020.2997706}}
+        ```
+      pdf: "http://parallel.princeton.edu/papers/ieee20-balkind.pdf"
+
+  fpl20:
+    venue:
+      type: Conference
+      abbrv: FPL'20
+      full: >-
+        The 30th International Conference on Field-Programmable Logic and Applications ([FPL](https://www.fpl2020.org/)), Aug-Sep 2020, Virtual
+    title: Automated Design of FPGAs Facilitated by Cycle-Free Routing
+    authors: Ang Li, Ting-Jung Chang, David Wentzlaff
+    links: !!omap
+      doi: "https://doi.org/10.1109/FPL50879.2020.00042"
+      bibtex: |-
+        ```
+        @INPROCEEDINGS{9221519,
+        author={Li, Ang and Chang, Ting-Jung and Wentzlaff, David},
+        booktitle={2020 30th International Conference on Field-Programmable Logic and Applications (FPL)},
+        title={{Automated Design of FPGAs Facilitated by Cycle-Free Routing}},
+        year={2020},
+        volume={},
+        number={},
+        pages={208-213},
+        doi={10.1109/FPL50879.2020.00042}}
+        ```
+      pdf: "http://parallel.princeton.edu/papers/FPL20-Li.pdf"
+
+  fpga21:
+    venue:
+      type: Conference
+      abbrv: FPGA'21
+      full: >-
+        The 29th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays ([FPGA](https://www.isfpga.org/past/fpga2021/)), Feb-Mar 2021, Virtual
+    title: "PRGA: An Open-Source FPGA Research and Prototyping Framework"
+    authors: Ang Li, David Wentzlaff
+    links: !!omap
+      doi: "https://doi.org/10.1145/3431920.3439294"
+      bibtex: |-
+        ```
+        @inproceedings{10.1145/3431920.3439294,
+        author = {Li, Ang and Wentzlaff, David},
+        title = {{PRGA: An Open-Source FPGA Research and Prototyping Framework}},
+        year = {2021},
+        isbn = {9781450382182},
+        publisher = {Association for Computing Machinery},
+        address = {New York, NY, USA},
+        url = {https://doi.org/10.1145/3431920.3439294},
+        doi = {10.1145/3431920.3439294},
+        abstract = {Field Programmable Gate Arrays (FPGA) are being used in a fast-growing range of scenarios, and heterogeneous CPU-FPGA systems are being tapped as a possible way to mitigate the challenges posed by the end of Moore's Law. This growth in diverse use cases has fueled the need to customize FPGA architectures for particular applications or application domains. While high-level FPGA models can help explore the FPGA architecture space, as FPGAs move to more advanced design nodes, there is an increased need for low-level FPGA research and prototyping platforms that can be brought all the way to fabrication.This paper presents Princeton Reconfigurable Gate Array (PRGA), a highly customizable, scalable, and complete open-source framework for building custom FPGAs. The framework's core functions include generating synthesizable Verilog from user-specified FPGA architectures, and providing a complete, auto-generated, open-source CAD toolchain for the custom FPGAs. Developed in Python, PRGA provides a user-friendly API and supports use both as a standalone FPGA as well as an embedded FPGA. PRGA is a great platform for FPGA architecture research, FPGA configuration memory research, FPGA CAD tool research, and heterogeneous systems research. It is also a completely open-source framework for designers who need a free and customizable FPGA IP core. An FPGA designed with PRGA is placed and routed using standard cell libraries. The design is evaluated and compared to prior works, providing comparable performance and increased configurability.},
+        booktitle = {The 2021 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays},
+        pages = {127–137},
+        numpages = {11},
+        keywords = {FPGA architecture, open-source hardware, FPGA},
+        location = {Virtual Event, USA},
+        series = {FPGA '21}
+        }
+        ```
+      pdf: "http://parallel.princeton.edu/papers/FPGA21-Li.pdf"
+      video: "https://dl.acm.org/doi/10.1145/3431920.3439294#"
+      github: "https://github.com/PrincetonUniversity/prga"
+      Website: "https://parallel.princeton.edu/prga"
+      Documentation: "https://prga.readthedocs.io/"
+
+  hpca23:
+    venue:
+      type: Conference
+      abbrv: HPCA'23
+      full: >-
+        The 29th IEEE International Symposium on High-Performance Computer Architecture ([HPCA](https://hpca-conf.org/2023/)), Feb-Mar 2023, Montreal, QC, Canada
+    title: "Duet: Creating Harmony between Processors and Embedded FPGAs"
+    authors: Ang Li, August Ning, David Wentzlaff
+    links:
+      arXiv: "https://arxiv.org/abs/2301.02785"
+      pdf: "/assets/pdfs/HPCA23_Ang_Li.pdf"
+      github: "https://github.com/PrincetonUniversity/Duet"
+
+  cicc23_decades:
+    venue:
+      type: Conference
+      abbrv: CICC'23
+      full: >-
+        2023 IEEE Custom Integrated Circuits Conference ([CICC](https://www.ieee-cicc.org/)), April 2023, San Antonio, TX, USA
+    title: "DECADES: A 67mm<sup>2</sup>, 1.46TOPS, 55 Giga Cache-Coherent 64-bit RISC-V Instructions per second, Heterogeneous Manycore SoC with 109 Tiles including Accelerators, Intelligent Storage, and eFPGA in 12nm FinFET"
+    authors: Fei Gao, Ting-Jung Chang, Ang Li, Marcelo Orenes-Vera, Davide Giri, Paul Jackson, August Ning, Georgios Tziantzioulis, Joseph Zuckerman, Jinzheng Tu, Kaifeng Xu, Grigory Chirkov, Gabriele Tombesi, Jonathan Balkind, Margaret Martonosi, Luca Carloni, David Wentzlaff
+    to_appear: true
+    links:
+      Website: "https://decades.cs.princeton.edu/"
+
+  cicc23_cifer:
+    venue:
+      type: Conference
+      abbrv: CICC'23
+      full: >-
+        2023 IEEE Custom Integrated Circuits Conference ([CICC](https://www.ieee-cicc.org/)), April 2023, San Antonio, TX, USA
+    title: "CIFER: A 12nm, 16mm<sup>2</sup>, 22-Core SoC with a 1541 LUT6/mm<sup>2</sup>, 1.92 MOPS/LUT, Fully Synthesizable, Cache-Coherent, Embedded FPGA"
+    authors: Ting-Jung Chang, Ang Li (Equal Contribution), Fei Gao, Tuan Ta, Georgios Tziantzioulis, Yanghui Ou, Moyang Wang, Jinzheng Tu, Kaifeng Xu, Paul J. Jackson, August Ning, Grigory Chirkov, Marcelo Orenes-Vera, Shady Agwa, Xiaoyu Yan, Eric Tang, Jonathan Balkind, Christopher Batten, David Wentzlaff
+    to_appear: true
+
+  ispass23:
+    venue:
+      type: Conference
+      abbrv: ISPASS'23
+      full: >-
+        2023 IEEE International Symposium on Performance Analysis of Systems and Software ([ISPASS](https://ispass.org/ispass2023/)), April 2023, Raleigh, NC, USA
+    title: "Redwood: Flexible and Portable Heterogeneous Tree Traversal Workloads"
+    authors: Yanwen Xu, Ang Li, Tyler Sorensen
+    to_appear: true

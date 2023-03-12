@@ -1,0 +1,40 @@
+{% assign pub = site.data.pubs.pubs[include.id] %}
+
+<div class="conf">
+  <span>{{ pub.venue.abbrv }}</span>
+  <br/><span class="doctype">{{ pub.venue.type }}</span>
+  {% if pub.to_appear %}<br/><span class="doctype">To Appear</span>{% endif %}
+</div>
+<div class="pub-info" id="#-pub-item-{{ include.id }}">
+  <p class="title">{{ pub.title | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+  {% if pub.links %}<p class="links">
+    {% for link_kv in pub.links %}
+      {% if link_kv[0] == 'arXiv' %}
+        <a class="link" href="{{ link_kv[1] }}">arXiv</a>
+      {% elsif link_kv[0] == 'pdf' %}
+        <a class="link" href="{{ link_kv[1] }}"><i class="far fa-file-pdf"></i> PDF</a>
+      {% elsif link_kv[0] == 'camera' %}
+        <a class="link" href="{{ link_kv[1] }}"><i class="far fa-file-pdf"></i> PDF (Camera-Ready)</a>
+      {% elsif link_kv[0] == 'poster' %}
+        <a class="link" href="{{ link_kv[1] }}"><i class="far fa-file-pdf"></i> Poster</a>
+      {% elsif link_kv[0] == 'doi' %}
+        <a class="link" href="{{ link_kv[1] }}"><i class="ai ai-doi"></i> DOI</a>
+      {% elsif link_kv[0] == 'video' %}
+        <a class="link" href="{{ link_kv[1] }}"><i class="far fa-file-video"></i> Recorded Presentation</a>
+      {% elsif link_kv[0] == 'github' %}
+        <a class="link" href="{{ link_kv[1] }}"><i class="fab fa-github"></i> GitHub</a>
+      {% elsif link_kv[0] == 'bibtex' %}
+        <span class="link" onclick="toggle_bibtex('bibtex-{{ include.id }}')" id="bibtex-toggle-{{ include.id }}">
+          <i class="fas fa-paperclip"></i> Bibtex
+        </span>
+      {% else %}
+        <a class="link" href="{{ link_kv[1] }}"><i class="fas fa-atlas"></i> {{ link_kv[0] }}</a>
+      {% endif %}
+    {% endfor %}
+  </p>{% endif %}
+  {% if pub.links.bibtex %}<div class="hidden" id="bibtex-{{ include.id }}">
+    {{ pub.links.bibtex | markdownify | remove: '<p>' | remove: '</p>'}}</div>
+  {% endif %}
+  <p class="authors">{{ pub.authors | replace: 'Ang Li', '<b><u>Ang Li</u></b>' }}</p>
+  <p class="venue">{{ pub.venue.full | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+</div>

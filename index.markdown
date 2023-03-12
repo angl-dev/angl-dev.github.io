@@ -39,7 +39,7 @@ feature_prga:
     [<i class="ai ai-doi"/> DOI](https://doi.org/10.1145/3431920.3439294){: .btn .btn--primary }
     [<i class="far fa-file-pdf"/> PDF](http://parallel.princeton.edu/papers/FPGA21-Li.pdf){: .btn .btn--primary }
     [<i class="fab fa-github"></i> GitHub](https://github.com/PrincetonUniversity/prga){: .btn .btn--primary }
-    [<i class="fas fa-atlas"></i> Documentation](https://parallel.princeton.edu/prga/){: .btn .btn--primary }
+    [<i class="fas fa-atlas"></i> Website](https://parallel.princeton.edu/prga/){: .btn .btn--primary }
 
 feature_duet:
   title: <i class="fas fa-meteor"></i> Duet - Harmonious CPU-FPGA Integration
@@ -88,7 +88,7 @@ feature_gem5_duet:
         In use by researchers at Princeton and UCSC
         </li>
         <li><span class="fa-li"><i class="far fa-file"></i></span>
-        <a href="#-pub-item-redwood">Paper</a> using gem5-Duet accepted to ISPASS'23!
+        <a href="/publications/#-pub-item-ispass23">Paper</a> using gem5-Duet accepted to ISPASS'23!
         </li>
     </ul>
 
@@ -112,7 +112,7 @@ feature_cifer:
         Prototype chip fabricated and tested
         </li>
         <li><span class="fa-li"><i class="far fa-file"></i></span>
-        <a href="#-pub-item-cifer">Paper</a> accepted to CICC'23!
+        <a href="#-pub-item-cicc23_cifer">Paper</a> accepted to CICC'23!
         </li>
     </ul>
 
@@ -147,7 +147,7 @@ feature_decades:
         Prototype chip fabricated and tested
         </li>
         <li><span class="fa-li"><i class="far fa-file"></i></span>
-        <a href="#-pub-item-decades">Paper</a> accepted to CICC'23!
+        <a href="#-pub-item-cicc23_decades">Paper</a> accepted to CICC'23!
         </li>
     </ul>
 
@@ -198,8 +198,8 @@ collaboration.
 
 * 02/28/23 [August](https://augustning.com/) presented [Duet](#feature_duet) at
   HPCA 2023! Great job!
-* 02/28/23 Our paper on programming/benchmarking for shared-memory heterogeneous
-  systems (CPU-GPU/CPU-FPGA), [Redwood](#-pub-item-redwood), is accepted to
+* 02/28/23 Our paper on programming/benchmarking shared-memory heterogeneous
+  systems (CPU-GPU/CPU-FPGA), [Redwood](/publications/#-pub-item-ispass23), is accepted to
   ISPASS 2023! Congrats, [Yanwen](https://xuyanwen2012.github.io/) and
   [Tyler](https://users.soe.ucsc.edu/~tsorensen/)!
 * 01/16/23 Media coverage of [Duet](#feature_duet) by [Semiconductor
@@ -218,134 +218,14 @@ collaboration.
 {% include feature_section id="feature_decades" %}
 {% include feature_section id="feature_order" %}
 
-# <i class="fas fa-box-archive"></i> Referred Publications ([Full List](/publications))
-
-## Conference Publications
+# <i class="fas fa-box-archive"></i> Referred Publications | [Full List](/publications)
 
 <div class="pub">
-  <div class="conf">
-    <span>ISPASS'23</span>
-    <br/><span class="doctype">To Appear</span>
-  </div>
-  <div class="pub-info">
-    <p class="title" id="-pub-item-redwood">Redwood: Flexible and Portable Heterogeneous Tree Traversal Workloads</p>
-    <p class="authors">Yanwen Xu, <b><u>Ang Li</u></b>, Tyler Sorensen</p>
-    <p class="venue">2023 IEEE International Symposium on Performance Analysis of Systems and Software (<a href="https://ispass.org/ispass2023/">ISPASS</a>), April 2023, Raleigh, NC, USA</p>
-  </div>
-
-  <div class="conf">
-    <span>CICC'23</span>
-    <br/><span class="doctype">To Appear</span>
-  </div>
-  <div class="pub-info">
-    <p class="title" id="-pub-item-cifer">CIFER: A 12nm, 16mm<sup>2</sup>, 22-Core SoC with a 1541 LUT6/mm<sup>2</sup>, 1.92 MOPS/LUT, Fully Synthesizable, Cache-Coherent, Embedded FPGA</p>
-    <p class="authors">Ting-Jung Chang, <b><u>Ang Li</u></b> (Equal Contribution), Fei Gao, Tuan Ta, Georgios Tziantzioulis, Yanghui Ou, Moyang Wang, Jinzheng Tu, Kaifeng Xu, Paul J. Jackson, August Ning, Grigory Chirkov, Marcelo Orenes-Vera, Shady Agwa, Xiaoyu Yan, Eric Tang, Jonathan Balkind, Christopher Batten, David Wentzlaff</p>
-    <p class="venue">2023 IEEE Custom Integrated Circuits Conference (<a href="https://www.ieee-cicc.org/">CICC</a>), April 2023, San Antonio, TX, USA</p>
-  </div>
-
-  <div class="conf">
-    <span>CICC'23</span>
-    <br/><span class="doctype">To Appear</span>
-  </div>
-  <div class="pub-info">
-    <p class="title" id="-pub-item-decades">DECADES: A 67mm<sup>2</sup>, 1.46TOPS, 55 Giga Cache-Coherent 64-bit RISC-V Instructions per second, Heterogeneous Manycore SoC with 109 Tiles including Accelerators, Intelligent Storage, and eFPGA in 12nm FinFET</p>
-    <p class="authors">Fei Gao, Ting-Jung Chang, <b><u>Ang Li</u></b>, Marcelo Orenes-Vera, Davide Giri, Paul Jackson, August Ning, Georgios Tziantzioulis, Joseph Zuckerman, Jinzheng Tu, Kaifeng Xu, Grigory Chirkov, Gabriele Tombesi, Jonathan Balkind, Margaret Martonosi, Luca Carloni, David Wentzlaff</p>
-    <p class="venue">2023 IEEE Custom Integrated Circuits Conference (<a href="https://www.ieee-cicc.org/">CICC</a>), April 2023, San Antonio, TX, USA</p>
-  </div>
-
-  <div class="conf"> <span>HPCA'23</span> </div>
-  <div class="pub-info">
-    <p class="title" id="-pub-item-duet">Duet: Creating Harmony between Processors and Embedded FPGAs</p>
-    <p class="links">
-      <a class="link" href="https://arxiv.org/abs/2301.02785">arXiv</a>
-      <a class="link" href="/assets/pdfs/HPCA23_Ang_Li.pdf"><i class="far fa-file-pdf"></i> PDF</a>
-    </p>
-    <p class="authors"><b><u>Ang Li</u></b>, August Ning, David Wentzlaff</p>
-    <p class="venue">The 29th IEEE International Symposium on High-Performance Computer Architecture (<a href="https://hpca-conf.org/2023/">HPCA</a>), Feb-Mar 2023, Montreal, QC, Canada</p>
-  </div>
-
-  <div class="conf"><span>FPGA'21</span></div>
-  <div class="pub-info">
-    <p class="title" id="-pub-item-prga">PRGA: An Open-Source FPGA Research and Prototyping Framework</p>
-    <p class="links">
-      <a class="link" href="https://doi.org/10.1145/3431920.3439294"><i class="ai ai-doi"></i> DOI</a>
-      <a class="link" href="http://parallel.princeton.edu/papers/FPGA21-Li.pdf"><i class="far fa-file-pdf"></i> PDF</a>
-      <a class="link" href="https://dl.acm.org/doi/10.1145/3431920.3439294#"><i class="far fa-file-video"></i> Recorded Presentation</a>
-    </p>
-    <p class="authors"><b><u>Ang Li</u></b>, David Wentzlaff</p>
-    <p class="venue">The 29th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (<a href="https://www.isfpga.org/past/fpga2021/">FPGA</a>), Feb-Mar 2021, Virtual</p>
-  </div>
-
-  <div class="conf"><span>FPL'20</span></div>
-  <div class="pub-info">
-    <p class="title" id="-pub-item-cycle-free">Automated Design of FPGAs Facilitated by Cycle-Free Routing</p>
-    <p class="links">
-      <a class="link" href="https://doi.org/10.1109/FPL50879.2020.00042"><i class="ai ai-doi"></i> DOI</a>
-      <a class="link" href="http://parallel.princeton.edu/papers/FPL20-Li.pdf"><i class="far fa-file-pdf"></i> PDF</a>
-    </p>
-    <p class="authors"><b><u>Ang Li</u></b>, Ting-Jung Chang, David Wentzlaff</p>
-    <p class="venue">The 30th International Conference on Field-Programmable Logic and Applications (<a href="https://www.fpl2020.org/">FPL</a>), Aug-Sep 2020, Virtual</p>
-  </div>
-
-  <div class="conf"><span>ASPLOS'20</span></div>
-  <div class="pub-info">
-    <p class="title" id="-pub-item-byoc">BYOC: A "Bring Your Own Core" Framework for Heterogeneous-ISA Research</p>
-    <p class="links">
-      <a class="link" href="https://doi.org/10.1145/3373376.3378479"><i class="ai ai-doi"></i> DOI</a>
-      <a class="link" href="http://parallel.princeton.edu/papers/aspl20-balkind.pdf"><i class="far fa-file-pdf"></i> PDF</a>
-    </p>
-    <p class="authors">Jonathan Balkind, Katie Lim, Michael Schaffner, Fei Gao, Grigory Chirkov, <b><u>Ang Li</u></b>, Alexey Lavrov, Tri M. Nguyen, Yaosheng Fu, Florian Zaruba, Kunal Gulati, Luca Benini, David Wentzlaff</p>
-    <p class="venue">The 25th International Conference on Architectural Support for Programming Languages and Operating Systems (<a href="https://asplos-conference.org/2020/">ASPLOS</a>), Mar 2020, Lausanne, Switzerland</p>
-  </div>
-
-</div>
-
-## Journal Publications
-
-<div class="pub">
-  <div class="conf"><span>IEEE Micro</span></div>
-  <div class="pub-info">
-    <p class="title" id="-pub-item-openpitonat5">OpenPiton at 5: A Nexus for Open and Agile Hardware Design</p>
-    <p class="links">
-      <a class="link" href="https://doi.org/10.1109/MM.2020.2997706"><i class="ai ai-doi"></i> DOI</a>
-      <a class="link" href="http://parallel.princeton.edu/papers/ieee20-balkind.pdf"><i class="far fa-file-pdf"></i> PDF</a>
-    </p>
-    <p class="authors">Jonathan Balkind, Ting-Jung Chang, Paul J. Jackson, Georgios Tziantzioulis, <b><u>Ang Li</u></b>, Fei Gao, Alexey Lavrov, Grigory Chirkov, Jinzheng Tu, Mohammad Shahrad, David Wentzlaff</p>
-    <p class="venue">IEEE Micro Vol. 40, No. 1, Jul-Aug 2020</p>
-  </div>
-</div>
-
-## Workshops and Posters
-
-<div class="pub">
-  <div class="conf">
-    <span>FPGA'20</span>
-    <br/><span class="doctype">Poster</span>
-  </div>
-  <div class="pub-info">
-    <p class="title" id="-pub-item-fpga20-poster">Cycle-Free FPGA Routing Graphs</p>
-    <p class="links">
-      <a class="link" href="https://doi.org/10.1145/3373087.3375354"><i class="ai ai-doi"></i> DOI</a>
-      <a class="link" href="/assets/pdfs/fpga20.pdf"><i class="far fa-file-pdf"></i> PDF</a>
-      <a class="link" href="/assets/pdfs/fpga20_poster.pdf"><i class="far fa-file-pdf"></i> Poster</a>
-    </p>
-    <p class="authors"><b><u>Ang Li</u></b>, David Wentzlaff</p>
-    <p class="venue">The 28th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (<a href="https://www.isfpga.org/past/fpga2020/">FPGA</a>), Feb 2020, Seaside, California, USA</p>
-  </div>
-
-  <div class="conf">
-    <span>OSDA'19</span>
-    <br/><span class="doctype">Workshop</span>
-  </div>
-  <div class="pub-info">
-    <p class="title" id="-pub-item-osda19-workshop">PRGA: An Open-source Framework for Building and Using Custom FPGAs</p>
-    <p class="links">
-      <a class="link" href="/assets/pdfs/osda19.pdf"><i class="far fa-file-pdf"></i> PDF</a>
-    </p>
-    <p class="authors"><b><u>Ang Li</u></b>, David Wentzlaff</p>
-    <p class="venue">The 1st Workshop on Open Source Design Automation (<a href="https://osda.gitlab.io/">OSDA</a>), Mar 2019, Florence, Italy</p>
-  </div>
-
+  {% include pub_item id="cicc23_cifer" %}
+  {% include pub_item id="cicc23_decades" %}
+  {% include pub_item id="hpca23" %}
+  {% include pub_item id="fpga21" %}
+  {% include pub_item id="fpl20" %}
 </div>
 
 # <i class="fas fa-person-chalkboard"></i> Teaching
