@@ -24,9 +24,9 @@
       {% elsif link_kv[0] == 'github' %}
         <a class="link" href="{{ link_kv[1] }}"><i class="fab fa-github"></i> GitHub</a>
       {% elsif link_kv[0] == 'bibtex' %}
-        <span class="link" onclick="toggle_bibtex('bibtex-{{ include.id }}')" id="bibtex-toggle-{{ include.id }}">
+        <a class="link" onclick="toggle_bibtex('bibtex-{{ include.id }}')" id="bibtex-toggle-{{ include.id }}">
           <i class="fas fa-paperclip"></i> Bibtex
-        </span>
+        </a>
       {% else %}
         <a class="link" href="{{ link_kv[1] }}"><i class="fas fa-atlas"></i> {{ link_kv[0] }}</a>
       {% endif %}
