@@ -196,18 +196,13 @@ collaboration.
 
 # <i class="fas fa-newspaper"></i> Latest News
 
-* 02/28/23 [August](https://augustning.com/) presented [Duet](#feature_duet) at
-  HPCA 2023! Great job!
-* 02/28/23 Our paper on programming/benchmarking shared-memory heterogeneous
-  systems (CPU-GPU/CPU-FPGA), [Redwood](/publications/#-pub-item-ispass23), is accepted to
-  ISPASS 2023! Congrats, [Yanwen](https://xuyanwen2012.github.io/) and
-  [Tyler](https://users.soe.ucsc.edu/~tsorensen/)!
-* 01/16/23 Media coverage of [Duet](#feature_duet) by [Semiconductor
-  Engineering](https://semiengineering.com/manycore-fpga-architecture-employing-novel-duet-adapters-to-integrate-efpgas-in-a-scalable-non-intrusive-cache-coherent-manner-princeton/)
-  and [Acceleration
-  Robotics](https://news.accelerationrobotics.com/hardware-acceleration-in-robotics-43/#duet-creating-harmony-between-processors-and-embedded-fpgas)!
-* 01/13/23 Our paper on [CIFER](#feature_cifer) is accepted to CICC 2023!
-* 01/13/23 Our paper on [DECADES](#feature_decades) is accepted to CICC 2023!
+<ul>
+{% for news in site.data.news reversed limit:10 %}
+  <li>
+  {{ news.date | date: "%D" }} {{ news.content | markdownify | remove: "<p>" | remove: "</p>" }}
+  </li>
+{% endfor %}
+</ul>
 
 # <i class="fas fa-screwdriver-wrench"></i> Projects
 
