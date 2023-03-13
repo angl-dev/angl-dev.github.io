@@ -2,8 +2,8 @@
 
 <div class="conf">
   <span>{{ pub.venue.abbrv }}</span>
-  <br/><span class="doctype">{{ pub.venue.type }}</span>
-  {% if pub.to_appear %}<br/><span class="doctype">To Appear</span>{% endif %}
+  <span class="doctype">{{ pub.venue.type }}</span>
+  {% if pub.to_appear %}<span class="doctype">To Appear</span>{% endif %}
 </div>
 <div class="pub-info" id="#-pub-item-{{ include.id }}">
   <p class="title">{{ pub.title | markdownify | remove: '<p>' | remove: '</p>' }}</p>
