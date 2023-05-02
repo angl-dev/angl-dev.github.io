@@ -3,10 +3,14 @@
 <div class="conf">
   <span>{{ pub.venue.abbrv }}</span>
   <span class="doctype">{{ pub.venue.type }}</span>
-  {% if pub.to_appear %}<span class="doctype">To Appear</span>{% endif %}
 </div>
-<div class="pub-info" id="#-pub-item-{{ include.id }}">
+<div class="pub-info" id="-pub-item-{{ include.id }}">
   <p class="title">{{ pub.title | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+  {% if pub.tags %}<p class="links">
+    {% for tag in pub.tags %}
+      <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </p>{% endif %}
   {% if pub.links %}<p class="links">
     {% for link_kv in pub.links %}
       {% if link_kv[0] == 'arXiv' %}

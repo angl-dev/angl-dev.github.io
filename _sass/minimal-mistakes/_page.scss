@@ -271,6 +271,14 @@ body {
           @extend .btn--primary;
           // @extend .btn--small;
         }
+
+        .tag {
+          @extend .btn;
+          @extend .btn--success;
+
+          pointer-events: none;
+          cursor: not-allowed;
+        }
       }
 
       p.venue {

@@ -34,8 +34,19 @@ feature_prga:
   excerpt: >-
     A silicon-proven, open-source project for generating customized, synthesizable
     FPGA with complementary, RTL-to-bitstream CAD toolchain.
-    <br/>
-    <br/>
+
+    <ul class="fa-ul">
+        <li><span class="fa-li"><i class="far fa-file"></i></span>
+        PRGA has been <a href="/publications/#-pub-item-fpga21">published</a> and presented at <a href="https://www.isfpga.org/past/fpga2021">FPGA'21</a>!
+        </li>
+        <li><span class="fa-li"><i class="far fa-file"></i></span>
+        Cycle-free FPGA has been <a href="/publications/#-pub-item-fpl20">published</a> and presented at <a href="https://www.fpl2020.org">FPL'20</a>!
+        </li>
+        <li><span class="fa-li"><i class="fas fa-microchip"></i></span>
+        PRGA has been used in three silicon prototypes: <a href="/#feature_cifer">CIFER</a>, <a href="/#feature_decades">DECADES</a>, and <a href="/#feature_order">ORDER</a>. CIFER and DECADES have been tested and functional in our lab!
+        </li>
+    </ul>
+
     [<i class="ai ai-doi"/> DOI](https://doi.org/10.1145/3431920.3439294){: .btn .btn--primary }
     [<i class="far fa-file-pdf"/> PDF](http://parallel.princeton.edu/papers/FPGA21-Li.pdf){: .btn .btn--primary }
     [<i class="fab fa-github"></i> GitHub](https://github.com/PrincetonUniversity/prga){: .btn .btn--primary }
@@ -52,6 +63,9 @@ feature_duet:
     domain.
 
     <ul class="fa-ul">
+        <li><span class="fa-li"><i class="far fa-file"></i></span>
+        Duet has been <a href="/publications/#-pub-item-hpca23">published</a> and presented at <a href="https://hpca-conf.org/2023">HPCA'23</a>!
+        </li>
         <li><span class="fa-li"><i class="fas fa-newspaper"></i></span>
         Media coverage by <a
         href="https://semiengineering.com/manycore-fpga-architecture-employing-novel-duet-adapters-to-integrate-efpgas-in-a-scalable-non-intrusive-cache-coherent-manner-princeton/">
@@ -63,12 +77,13 @@ feature_duet:
     </ul>
 
     [arXiv](https://arxiv.org/abs/2301.02785){: .btn .btn--primary }
+    [<i class="ai ai-doi"/> DOI](https://doi.org/10.1109/HPCA56546.2023.10070989){: .btn .btn--primary }
     [<i class="far fa-file-pdf"/> PDF](/assets/pdfs/HPCA23_Ang_Li.pdf){: .btn .btn--primary }
     [<i class="fab fa-github"></i> GitHub](https://github.com/PrincetonUniversity/Duet){: .btn .btn--primary }
 
 feature_gem5_duet:
   title: <i class="fas fa-meteor"></i> gem5 x Duet
-  image_path: https://www.gem5.org/assets/img/gem5logo/Color/noBackground/vertical/gem5ColorVert.png
+  image_path: /assets/images/gem5ColorVert.png
   image_position: left
   excerpt: >-
     A [gem5](https://www.gem5.org/) extension for simulating tightly-integrated,
@@ -88,7 +103,8 @@ feature_gem5_duet:
         In use by researchers at Princeton and UCSC
         </li>
         <li><span class="fa-li"><i class="far fa-file"></i></span>
-        <a href="/publications/#-pub-item-ispass23">Paper</a> using gem5-Duet accepted to ISPASS'23!
+        Redwood, a research project using gem5-Duet has been 
+        <a href="/publications/#-pub-item-ispass23">published</a> and presented at <a href="https://ispass.org/ispass2023">ISPASS'23</a>!
         </li>
     </ul>
 
@@ -99,7 +115,7 @@ feature_cifer:
   image_position: right
   title: <i class="fas fa-meteor"></i> CIFER
   excerpt: >-
-    An open-source, heterogeneous, cache-coherent, manycore-eFPGA SoC.
+    A heterogeneous, cache-coherent, manycore-eFPGA SoC.
     CIFER integrates OS-capable cores, parallel tiny core clusters, and eFPGA
     fabrics in a coherent cache system, covering both ends of the
     parallelization-specialization spectrum.
@@ -112,7 +128,7 @@ feature_cifer:
         Prototype chip fabricated and tested
         </li>
         <li><span class="fa-li"><i class="far fa-file"></i></span>
-        <a href="#-pub-item-cicc23_cifer">Paper</a> accepted to CICC'23!
+        CIFER has been <a href="#-pub-item-cicc23_cifer">published</a> and presented at <a href="https://www.ieee-cicc.org">CICC'23</a>!
         </li>
     </ul>
 
@@ -124,6 +140,8 @@ feature_cifer:
     dynamic control flow, memory/IO-bound tasks, or any other non-acceleratable
     parts of an application.
     -->
+
+    [<i class="far fa-file-pdf"/> PDF](/assets/pdfs/CIFER_CICC23.pdf){: .btn .btn--primary }
 
 feature_decades:
   image_path: /assets/images/decades_logo.png
@@ -147,10 +165,11 @@ feature_decades:
         Prototype chip fabricated and tested
         </li>
         <li><span class="fa-li"><i class="far fa-file"></i></span>
-        <a href="#-pub-item-cicc23_decades">Paper</a> accepted to CICC'23!
+        DECADES has been <a href="#-pub-item-cicc23_decades">published</a> and presented at <a href="https://www.ieee-cicc.org">CICC'23</a>!
         </li>
     </ul>
 
+    [<i class="far fa-file-pdf"/> PDF](/assets/pdfs/DECADES_CICC23.pdf){: .btn .btn--primary }
     [<i class="fas fa-atlas"></i> Website](https://decades.cs.princeton.edu){: .btn .btn--primary }
 
 feature_order:
@@ -162,7 +181,7 @@ feature_order:
     ORDER is a microcontroller-eFPGA SoC designed with fully open-source
     hardware projects
     ([Caravel](https://caravel-harness.readthedocs.io/en/latest/) and
-    [PRGA](#feature-prga)),
+    [PRGA](#feature_prga)),
     PDK ([SkyWater130](https://skywater-pdk.readthedocs.io/en/main/)), and EDA
     toolchain ([OpenROAD](https://theopenroadproject.org)).
 
@@ -216,6 +235,7 @@ collaboration.
 # <i class="fas fa-box-archive"></i> Referred Publications | [Full List](/publications)
 
 <div class="pub">
+  {% include pub_item id="ispass23" %}
   {% include pub_item id="cicc23_cifer" %}
   {% include pub_item id="cicc23_decades" %}
   {% include pub_item id="hpca23" %}

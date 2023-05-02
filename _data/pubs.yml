@@ -249,6 +249,19 @@ pubs: !!omap
     authors: Ang Li, August Ning, David Wentzlaff
     links:
       arXiv: "https://arxiv.org/abs/2301.02785"
+      doi: "https://doi.org/10.1109/HPCA56546.2023.10070989"
+      bibtex: |-
+        ```
+        @INPROCEEDINGS{10070989,
+        author={Li, Ang and Ning, August and Wentzlaff, David},
+        booktitle={2023 IEEE International Symposium on High-Performance Computer Architecture (HPCA)}, 
+        title={{Duet: Creating Harmony between Processors and Embedded FPGAs}}, 
+        year={2023},
+        volume={},
+        number={},
+        pages={745-758},
+        doi={10.1109/HPCA56546.2023.10070989}}
+        ```
       pdf: "/assets/pdfs/HPCA23_Ang_Li.pdf"
       github: "https://github.com/PrincetonUniversity/Duet"
 
@@ -260,9 +273,11 @@ pubs: !!omap
         2023 IEEE Custom Integrated Circuits Conference ([CICC](https://www.ieee-cicc.org/)), April 2023, San Antonio, TX, USA
     title: "DECADES: A 67mm<sup>2</sup>, 1.46TOPS, 55 Giga Cache-Coherent 64-bit RISC-V Instructions per second, Heterogeneous Manycore SoC with 109 Tiles including Accelerators, Intelligent Storage, and eFPGA in 12nm FinFET"
     authors: Fei Gao, Ting-Jung Chang, Ang Li, Marcelo Orenes-Vera, Davide Giri, Paul Jackson, August Ning, Georgios Tziantzioulis, Joseph Zuckerman, Jinzheng Tu, Kaifeng Xu, Grigory Chirkov, Gabriele Tombesi, Jonathan Balkind, Margaret Martonosi, Luca Carloni, David Wentzlaff
-    to_appear: true
     links:
+      pdf: "/assets/pdfs/DECADES_CICC23.pdf"
       Website: "https://decades.cs.princeton.edu/"
+    tags:
+      - "Best Student Paper Nominee"
 
   cicc23_cifer:
     venue:
@@ -272,7 +287,8 @@ pubs: !!omap
         2023 IEEE Custom Integrated Circuits Conference ([CICC](https://www.ieee-cicc.org/)), April 2023, San Antonio, TX, USA
     title: "CIFER: A 12nm, 16mm<sup>2</sup>, 22-Core SoC with a 1541 LUT6/mm<sup>2</sup>, 1.92 MOPS/LUT, Fully Synthesizable, Cache-Coherent, Embedded FPGA"
     authors: Ting-Jung Chang, Ang Li (Equal Contribution), Fei Gao, Tuan Ta, Georgios Tziantzioulis, Yanghui Ou, Moyang Wang, Jinzheng Tu, Kaifeng Xu, Paul J. Jackson, August Ning, Grigory Chirkov, Marcelo Orenes-Vera, Shady Agwa, Xiaoyu Yan, Eric Tang, Jonathan Balkind, Christopher Batten, David Wentzlaff
-    to_appear: true
+    links:
+      pdf: "/assets/pdfs/CIFER_CICC23.pdf"
 
   ispass23:
     venue:
@@ -282,4 +298,5 @@ pubs: !!omap
         2023 IEEE International Symposium on Performance Analysis of Systems and Software ([ISPASS](https://ispass.org/ispass2023/)), April 2023, Raleigh, NC, USA
     title: "Redwood: Flexible and Portable Heterogeneous Tree Traversal Workloads"
     authors: Yanwen Xu, Ang Li, Tyler Sorensen
-    to_appear: true
+    links:
+      pdf: "/assets/pdfs/Redwood.pdf"
