@@ -225,7 +225,6 @@ pubs: !!omap
     title: "Duet: Creating Harmony between Processors and Embedded FPGAs"
     authors: Ang Li, August Ning, David Wentzlaff
     links:
-      arXiv: "https://arxiv.org/abs/2301.02785"
       doi: "https://doi.org/10.1109/HPCA56546.2023.10070989"
       bibtex: |-
         ```
@@ -240,6 +239,7 @@ pubs: !!omap
         doi={10.1109/HPCA56546.2023.10070989}}
         ```
       pdf: "/assets/pdfs/HPCA23_Ang_Li.pdf"
+      arXiv: "https://arxiv.org/abs/2301.02785"
       github: "https://github.com/PrincetonUniversity/Duet"
 
   cicc23_decades:
