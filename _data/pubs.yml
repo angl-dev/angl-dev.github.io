@@ -1,35 +1,12 @@
 pubs: !!omap
-  asplos15:
+  aspdac15:
     venue:
-      abbrv: ASPLOS'15
+      abbrv: ASPDAC'15
       type: Conference
       full: >-
         The 20th Asia and South Pacific Design Automation Conference ([ASPDAC](https://www.aspdac.com/aspdac2015/)), Jan 2015, Chiba/Tokyo, Japan
     title: Nonvolatile Memory Allocation and Hierarchy Optimization for High-Level Synthesis
     authors: Shuangchen Li, Ang Li, Yongpan Liu, Yuan Xie, Huazhong Yang
-    links: !!omap
-      doi: "https://doi.org/10.1109/ASPDAC.2015.7058999"
-      bibtex: |-
-        ```
-        @INPROCEEDINGS{7058999,
-        author={Li, Shuangchen and Ang Li and Liu, Yongpan and Xie, Yuan and Huazhong Yang},
-        booktitle={The 20th Asia and South Pacific Design Automation Conference}, 
-        title={{Nonvolatile Memory Allocation and Hierarchy Optimization for High-Level Synthesis}}, 
-        year={2015},
-        volume={},
-        number={},
-        pages={166-171},
-        doi={10.1109/ASPDAC.2015.7058999}}
-        ```
-  
-  islped15:
-    venue:
-      type: Conference
-      abbrv: ISLPED'15
-      full: >-
-        2015 IEEE/ACM International Symposium on Low Power Electronics and Design ([ISPLED](http://islped.org/2015/)), July 2015, Rome, Italy
-    title: Leveraging Emerging Nonvolatile Memory in High-Level Synthesis with Loop Transformations
-    authors: Shuangchen Li, Ang Li, Yuan Zhe, Yongpan Liu, Peng Li, Guangyu Sun, Yu Wang, Huazhong Yang, Yuan Xie
     links: !!omap
       doi: "https://doi.org/10.1109/ASPDAC.2015.7058999"
       bibtex: |-
@@ -274,6 +251,19 @@ pubs: !!omap
     title: "DECADES: A 67mm<sup>2</sup>, 1.46TOPS, 55 Giga Cache-Coherent 64-bit RISC-V Instructions per second, Heterogeneous Manycore SoC with 109 Tiles including Accelerators, Intelligent Storage, and eFPGA in 12nm FinFET"
     authors: Fei Gao, Ting-Jung Chang, Ang Li, Marcelo Orenes-Vera, Davide Giri, Paul Jackson, August Ning, Georgios Tziantzioulis, Joseph Zuckerman, Jinzheng Tu, Kaifeng Xu, Grigory Chirkov, Gabriele Tombesi, Jonathan Balkind, Margaret Martonosi, Luca Carloni, David Wentzlaff
     links:
+      doi: "https://doi.org/10.1109/CICC57935.2023.10121257"
+      bibtex: |-
+        ```
+        @INPROCEEDINGS{10121257,
+        author={Gao, Fei and Chang, Ting-Jung and Li, Ang and Orenes-Vera, Marcelo and Giri, Davide and Jackson, Paul J. and Ning, August and Tziantzioulis, Georgios and Zuckerman, Joseph and Tu, Jinzheng and Xu, Kaifeng and Chirkov, Grigory and Tombesi, Gabriele and Balkind, Jonathan and Martonosi, Margaret and Carloni, Luca and Wentzlaff, David},
+        booktitle={2023 IEEE Custom Integrated Circuits Conference (CICC)}, 
+        title={{DECADES: A 67mm2, 1.46TOPS, 55 Giga Cache-Coherent 64-bit RISC-V Instructions per second, Heterogeneous Manycore SoC with 109 Tiles including Accelerators, Intelligent Storage, and eFPGA in 12nm FinFET}}, 
+        year={2023},
+        volume={},
+        number={},
+        pages={1-2},
+        doi={10.1109/CICC57935.2023.10121257}}
+        ```
       pdf: "/assets/pdfs/DECADES_CICC23.pdf"
       Website: "https://decades.cs.princeton.edu/"
     tags:
@@ -288,6 +278,19 @@ pubs: !!omap
     title: "CIFER: A 12nm, 16mm<sup>2</sup>, 22-Core SoC with a 1541 LUT6/mm<sup>2</sup>, 1.92 MOPS/LUT, Fully Synthesizable, Cache-Coherent, Embedded FPGA"
     authors: Ting-Jung Chang, Ang Li (Equal Contribution), Fei Gao, Tuan Ta, Georgios Tziantzioulis, Yanghui Ou, Moyang Wang, Jinzheng Tu, Kaifeng Xu, Paul J. Jackson, August Ning, Grigory Chirkov, Marcelo Orenes-Vera, Shady Agwa, Xiaoyu Yan, Eric Tang, Jonathan Balkind, Christopher Batten, David Wentzlaff
     links:
+      doi: "https://doi.org/10.1109/CICC57935.2023.10121294"
+      bibtex: |-
+        ```
+        @INPROCEEDINGS{10121294,
+        author={Chang, Ting-Jung and Li, Ang and Gao, Fei and Ta, Tuan and Tziantzioulis, Georgios and Ou, Yanghui and Wang, Moyang and Tu, Jinzheng and Xu, Kaifeng and Jackson, Paul J. and Ning, August and Chirkov, Grigory and Orenes-Vera, Marcelo and Agwa, Shady and Yan, Xiaoyu and Tang, Eric and Balkind, Jonathan and Batten, Christopher and Wentzlaff, David},
+        booktitle={2023 IEEE Custom Integrated Circuits Conference (CICC)},
+        title={{CIFER: A 12nm, 16mm2, 22-Core SoC with a 1541 LUT6/mm2 1.92 MOPS/LUT, Fully Synthesizable, CacheCoherent, Embedded FPGA}},
+        year={2023},
+        volume={},
+        number={},
+        pages={1-2},
+        doi={10.1109/CICC57935.2023.10121294}}
+        ```
       pdf: "/assets/pdfs/CIFER_CICC23.pdf"
 
   ispass23:
