@@ -197,8 +197,8 @@ feature_order:
 ---
 
 <p class="notice--info">
-I am officially joining the <a href="https://www.ece.uw.edu/">Department of Electrical and Computer Engineering</a> at University
-of Washington (UW ECE) in 2023 fall! Super excited for the journey ahead!
+I am officially joining the <a href="https://www.ece.uw.edu/">Department of Electrical and Computer Engineering</a>
+at the University of Washington (UW ECE) as an assistant professor in 2023 fall! Super excited for the journey ahead!
 </p>
 
 # <i class="fas fa-child-reaching"></i> About Me
