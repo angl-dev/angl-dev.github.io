@@ -196,6 +196,11 @@ feature_order:
 
 ---
 
+<p class="notice--info">
+I am officially joining the <a href="https://www.ece.uw.edu/">Department of Electrical and Computer Engineering</a> at University
+of Washington (UW ECE) in 2023 fall! Super excited for the journey ahead!
+</p>
+
 # <i class="fas fa-child-reaching"></i> About Me
 
 I am a final-year Ph.D. candidate in the ECE department, Princeton University.
@@ -207,11 +212,9 @@ especially heterogeneous and reconfigurable systems for both high-performance an
 low-power applications.
 I enjoy building chips so as to validate and evaluate my ideas with high
 fidelity.
-I am also an advocator of open-source hardware/research as they
+I am also an advocate of open-source hardware/research as they
 increase research credibility/reproducibility and encourage community-wide
 collaboration.
-
-**I am on the academic job market this year. You can find my latest CV [here](/assets/pdfs/cv-angl.pdf).**
 
 # <i class="fas fa-newspaper"></i> Latest News
 

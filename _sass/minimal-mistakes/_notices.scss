@@ -15,7 +15,7 @@
   padding: 1em;
   color: $text-color;
   font-family: $global-font-family;
-  font-size: $type-size-6 !important;
+  font-size: $type-size-4 !important;
   text-indent: initial; /* override*/
   background-color: mix($background-color, $notice-color, $notice-background-mix);
   border-radius: $border-radius;
@@ -61,9 +61,9 @@
     background-color: mix($background-color, $notice-color, $code-notice-background-mix)
   }
 
-	pre code {
-		background-color: inherit;
-	}
+  pre code {
+    background-color: inherit;
+  }
 
   ul {
     &:last-child {

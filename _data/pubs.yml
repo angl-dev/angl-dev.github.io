@@ -303,3 +303,23 @@ pubs: !!omap
     authors: Yanwen Xu, Ang Li, Tyler Sorensen
     links:
       pdf: "/assets/pdfs/Redwood.pdf"
+
+  oscar23-prga:
+    venue:
+      type: Workshop
+      abbrv: OSCAR'23
+      full: >-
+        Open-Source Computer Architecture Research ([OSCAR](https://oscar-workshop.github.io/Home_2023.html)), June 2023, Orlando, FL, USA
+    title: "Open-Source FPGA on Silicon: Case Studies on PRGA, an Open-Source Framework for Building & Programming Custom FPGAs"
+    authors: Ang Li, Ting-Jung Chang, Fei Gao, David Wentzlaff
+
+  oscar23-redwood:
+    venue:
+      type: Workshop
+      abbrv: OSCAR'23
+      full: >-
+        Open-Source Computer Architecture Research ([OSCAR](https://oscar-workshop.github.io/Home_2023.html)), June 2023, Orlando, FL, USA
+    title: "Evaluating Shared Memory Heterogeneous Systems Using Traverse-Compute Workloads"
+    authors: Yanwen Xu, Ang Li, Tyler Sorensen
+    links:
+      video: https://www.youtube.com/watch?v=Ebvd9IFk1g8
