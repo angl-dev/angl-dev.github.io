@@ -302,6 +302,19 @@ pubs: !!omap
     title: "Redwood: Flexible and Portable Heterogeneous Tree Traversal Workloads"
     authors: Yanwen Xu, Ang Li, Tyler Sorensen
     links:
+      doi: "https://doi.org/10.1109/ISPASS57527.2023.00028"
+      bibtex: |-
+        ```
+        @INPROCEEDINGS{10158162,
+        author={Xu, Yanwen and Li, Ang and Sorensen, Tyler},
+        booktitle={2023 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)}, 
+        title={{Redwood: Flexible and Portable Heterogeneous Tree Traversal Workloads}}, 
+        year={2023},
+        volume={},
+        number={},
+        pages={201-213},
+        doi={10.1109/ISPASS57527.2023.00028}}
+        ```
       pdf: "/assets/pdfs/Redwood.pdf"
 
   oscar23-prga:
