@@ -131,6 +131,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/AngPncel"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ang-li-836ab242/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -143,9 +146,9 @@ author:
     - label: "Google Scholar"
       icon: "ai ai-fw ai-google-scholar-square"
       url: "https://scholar.google.com/citations?user=gOD_k4wAAAAJ&hl=en"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/ang-li-836ab242/"
+    - label: "ORCiD"
+      icon: "ai ai-fw ai-orcid-square"
+      url: "https://orcid.org/0000-0002-7458-063X"
 
 # Site Footer
 footer:
