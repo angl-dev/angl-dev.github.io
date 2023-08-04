@@ -178,7 +178,7 @@ pubs: !!omap
         pages={208-213},
         doi={10.1109/FPL50879.2020.00042}}
         ```
-      pdf: "http://parallel.princeton.edu/papers/FPL20-Li.pdf"
+      pdf: "/assets/pdfs/FPL20-Li.pdf"
 
   fpga21:
     venue:
@@ -210,7 +210,7 @@ pubs: !!omap
         series = {FPGA '21}
         }
         ```
-      pdf: "http://parallel.princeton.edu/papers/FPGA21-Li.pdf"
+      pdf: "/assets/pdfs/FPGA21-Li.pdf"
       video: "https://dl.acm.org/doi/10.1145/3431920.3439294#"
       github: "https://github.com/PrincetonUniversity/prga"
       Website: "https://parallel.princeton.edu/prga"
@@ -325,6 +325,8 @@ pubs: !!omap
         Open-Source Computer Architecture Research ([OSCAR](https://oscar-workshop.github.io/Home_2023.html)), June 2023, Orlando, FL, USA
     title: "Open-Source FPGA on Silicon: Case Studies on PRGA, an Open-Source Framework for Building & Programming Custom FPGAs"
     authors: Ang Li, Ting-Jung Chang, Fei Gao, David Wentzlaff
+    links:
+      pdf: "/assets/pdfs/prga-oscar-23.pdf"
 
   oscar23-redwood:
     venue:
@@ -335,4 +337,5 @@ pubs: !!omap
     title: "Evaluating Shared Memory Heterogeneous Systems Using Traverse-Compute Workloads"
     authors: Yanwen Xu, Ang Li, Tyler Sorensen
     links:
+      pdf: "/assets/pdfs/redwood-oscar-23.pdf"
       video: https://www.youtube.com/watch?v=Ebvd9IFk1g8
