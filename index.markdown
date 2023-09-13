@@ -130,6 +130,9 @@ feature_cifer:
         <li><span class="fa-li"><i class="far fa-file"></i></span>
         CIFER has been <a href="#-pub-item-cicc23_cifer">published</a> and presented at <a href="https://www.ieee-cicc.org">CICC'23</a>!
         </li>
+        <li><span class="fa-li"><i class="far fa-file"></i></span>
+        More technical details are published in our <a href="#-pub-item-sscl23">SSC-L paper</a>.
+        </li>
     </ul>
 
     <!--
@@ -141,7 +144,8 @@ feature_cifer:
     parts of an application.
     -->
 
-    [<i class="far fa-file-pdf"/> PDF](/assets/pdfs/CIFER_CICC23.pdf){: .btn .btn--primary }
+    [<i class="far fa-file-pdf"/> CICC'23](/assets/pdfs/CIFER_CICC23.pdf){: .btn .btn--primary }
+    [<i class="far fa-file-pdf"/> SSC-L'23](/assets/pdfs/CIFER_SSCL23.pdf){: .btn .btn--primary }
 
 feature_decades:
   image_path: /assets/images/decades_logo.png
@@ -198,7 +202,8 @@ feature_order:
 
 <p class="notice--info">
 I am officially joining the <a href="https://www.ece.uw.edu/">Department of Electrical and Computer Engineering</a>
-at the University of Washington (UW ECE) as an assistant professor in 2023 fall! Super excited for the journey ahead!
+at the University of Washington (UW ECE) as an assistant professor in 2024 fall! I will be a visiting scholar at
+<a href="https://www.amd.com/en/corporate/research.html">AMD Research</a> until then. Super excited for the journey ahead!
 </p>
 
 # <i class="fas fa-child-reaching"></i> About Me
@@ -219,7 +224,8 @@ collaboration.
 # <i class="fas fa-newspaper"></i> Latest News
 
 <ul>
-{% for news in site.data.news reversed limit:10 %}
+{% assign latest_news = site.data.news | reverse | slice: 0, 9 %}
+{% for news in latest_news %}
   <li>
   {{ news.date | date: "%D" }} {{ news.content | markdownify | remove: "<p>" | remove: "</p>" }}
   </li>
@@ -238,6 +244,7 @@ collaboration.
 # <i class="fas fa-box-archive"></i> Referred Publications | [Full List](/publications)
 
 <div class="pub">
+  {% include pub_item id="sscl23" %}
   {% include pub_item id="ispass23" %}
   {% include pub_item id="cicc23_cifer" %}
   {% include pub_item id="cicc23_decades" %}

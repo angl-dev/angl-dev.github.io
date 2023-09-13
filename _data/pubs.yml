@@ -339,3 +339,27 @@ pubs: !!omap
     links:
       pdf: "/assets/pdfs/redwood-oscar-23.pdf"
       video: https://www.youtube.com/watch?v=Ebvd9IFk1g8
+
+  sscl23:
+    venue:
+      type: Journal
+      abbrv: IEEE SSC-L
+      full: >-
+        IEEE Solid-State Circuits Letters
+    title: "CIFER: A Cache-Coherent 12nm 16mm<sup>2</sup> SoC With Four 64-Bit RISC-V Application Cores, 18 32-Bit RISC-V Compute Cores, and a 1541 LUT6/mm<sup>2</sup> Synthesizable eFPGA"
+    authors: Ang Li, Ting-Jung Chang, Fei Gao, Tuan Ta, Georgios Tziantzioulis, Yanghui Ou, Moyang Wang, Jinzheng Tu, Kaifeng Xu, Paul J. Jackson, August Ning, Grigory Chirkov, Marcelo Orenes-Vera, Shady Agwa, Xiaoyu Yan, Eric Tang, Jonathan Balkind, Christopher Batten, David Wentzlaff
+    links:
+      doi: "https://doi.org/10.1109/LSSC.2023.3303111"
+      bibtex: |-
+        ```
+        @ARTICLE{10210635,
+        author={Li, Ang and Chang, Ting-Jung and Gao, Fei and Ta, Tuan and Tziantzioulis, Georgios and Ou, Yanghui and Wang, Moyang and Tu, Jinzheng and Xu, Kaifeng and Jackson, Paul and Ning, August and Chirkov, Grigory and Orenes-Vera, Marcelo and Agwa, Shady and Yan, Xiaoyu and Tang, Eric and Balkind, Jonathan and Batten, Christopher and Wentzlaff, David},
+        journal={IEEE Solid-State Circuits Letters}, 
+        title={{CIFER: A Cache-Coherent 12-nm 16-mm2 SoC With Four 64-Bit RISC-V Application Cores, 18 32-Bit RISC-V Compute Cores, and a 1541 LUT6/mm2 Synthesizable eFPGA}}, 
+        year={2023},
+        volume={6},
+        number={},
+        pages={229-232},
+        doi={10.1109/LSSC.2023.3303111}}
+        ```
+      pdf: "/assets/pdfs/CIFER_SSCL23.pdf"
